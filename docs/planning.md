@@ -3,7 +3,7 @@
 ## Business Case
 
 ### Problem statement
-Pollution is known to have a harmful effect on people who are exposed to it on a regular basis. Bristol due to the amount of traffic during peak hours concentrates high levels of poluttion, as such people that want to do activities outsied might find themselves breathing air of poor quality , which undermines their initial goal of living a healthy live by doing any type of exercise. If we can tell people who live local to Bristol what areas concentrate the highest amount of Carbon Dioxide, then it would allow them to plan their journey ahead, and minimise their exposure to toxic air. 
+Pollution is known to have a harmful effect on people who are exposed to it on a regular basis. In Bristol, due to the amount of traffic during peak hours, high levels of poluttion is concentrated. As consequence, people wanting to do activities outside might find themselves breathing air of poor quality, which undermines their initial goal of living a healthy live by exercising outdoors. If we can tell people who live local to Bristol which areas concentrate the highest amount of Carbon Dioxide, then it would allow them to plan their journey ahead, and minimise their exposure to this toxic air. 
 
 ### Business benefits
 TODO: List high-level benefits that this product will provide.

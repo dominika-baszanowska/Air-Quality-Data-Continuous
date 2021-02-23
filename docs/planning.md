@@ -14,9 +14,9 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 * Diseases associated to pollution might decrease overtime.
 
 ### Options Considered
-* Department for Environment Food & Rural Affairs - UK Air Information Resource
-* BBC Pollution Postcode Checker
-* Air Quality England
+* Department for Environment Food & Rural Affairs - UK Air Information Resource.
+* BBC Pollution Postcode Checker.
+* Air Quality England.
 
 ### Expected Risks
 * Users are already used to the available options, hence low engagement might occur. 
@@ -26,6 +26,6 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 * People exercising outdoors.
 * City of Bristol.
 * Open Data Bristol Platform.
-* Mobile App
+* Mobile App.
 
 ![Insert your Context Diagram Here](images/BPC.jpg)

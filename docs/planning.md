@@ -7,10 +7,10 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 
 ### Business benefits
 * Promote exercising outdoors.
-* Help identify areas with higuer pollution so that the Council takes action.
+* Help identify areas with higher pollution levels so that the Council takes action.
 * People can minimise breathing air of poor quality by checking real-time statistics on pollution.
 * Local shops located in areas with less pollution might see an increase in their sales, as a result of more people doing outdoors exercise in those areas.
-* Life expectancy might increase as a result of people chosing the air they breath. 
+* Life expectancy might increase as a result of people chosing the quality of the air they breath. 
 * Diseases associated to pollution might decrease overtime.
 
 ### Options Considered

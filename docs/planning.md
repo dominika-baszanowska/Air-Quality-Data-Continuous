@@ -14,10 +14,14 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 * Diseases associated to pollution might decrease overtime.
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
+* Department for Environment Food & Rural Affairs - UK Air Information Resource
+* BBC Pollution Postcode Checker
+* Air Quality England
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+* Users are already used to the available options, hence low engagement might occur. 
+* Due to the pandemic, pollution levels might have decreased in general, hence there might be no need to identify which areas have the highest pollution levels, which was one of the benefits of this proposal.
+
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.

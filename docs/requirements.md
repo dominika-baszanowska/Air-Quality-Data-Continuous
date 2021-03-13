@@ -23,6 +23,19 @@ TODO: Describe each use case (one per team member).
 | **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundry.|
 | **Steps** | People exercising outdoors would download the app. Next they would type their postcode to enable system to show their area's air qulaity. System would get information from data base to show the pollution level at their present localtion and show  cleaner areas nearby. System would also be connected to maps to show the results more clearly.|
 
+| UC2        | Exercising Outdoors | 
+| -------------------------------------- | ------------------- |
+| **Description** | People that are exercising outdoors should have access to air quality data. That would allow them choose areas that are less polluted. Aiming to find best quality air locally for their sport activity.|
+| **Actors** | People, that are active outdoors e.g. cyclist, runners.|
+| **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundry.|
+| **Steps** | People exercising outdoors would download the app. Next they would type their postcode to enable system to show their area's air qulaity. System would get information from data base to show the pollution level at their present localtion and show  cleaner areas nearby. System would also be connected to maps to show the results more clearly.|
+
+| UC3        | TBD | 
+| -------------------------------------- | ------------------- |
+| **Description** | TBD |
+| **Actors** | TBD |
+| **Assumptions** | TBD |
+| **Steps** | TBD |
 
 |USE-CASE ID, UC1, UC2...| Use-Case NAME|
 |**Description** | TODO: Goal to be achieved by use-case and sources for requirement.|

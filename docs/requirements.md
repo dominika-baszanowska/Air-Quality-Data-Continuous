@@ -50,12 +50,8 @@ TODO: Your Use-Case diagram should include all use-cases.
 ![Insert your Use-Case-Diagram Here](images/image_usecase.png)
 
 ## Software Requirements Specification
+
 ### Functional requirements
-### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
   
 |  ***Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |

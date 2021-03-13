@@ -65,8 +65,8 @@ Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 |  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
-| **NFR1** | TBD | TBD |
-| **NFR2** | TBD | TBD |
+| **NFR1** | The app should work on iOS (Portability) | UC1, UC2, UC3 |
+| **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors | UC1, UC2, UC3 |
 | **NFR3** | TBD | TBD |
 
 Indicate which UC the requirement comes from.

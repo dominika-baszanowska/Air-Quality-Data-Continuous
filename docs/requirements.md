@@ -28,7 +28,8 @@ TODO: Describe each use case (one per team member).
 | **Description** | As a person exercising outdoors I want to be able to find the less poluted areas on a map |
 | **Actors** | Anyone exercising outdoors |
 | **Assumptions** | Geolocation is supported on the person's device |
-| **Steps** | 1. 2. |
+| **Steps** | 1. 
+2. |
 
 | UC3        | TBD | 
 | -------------------------------------- | ------------------- |

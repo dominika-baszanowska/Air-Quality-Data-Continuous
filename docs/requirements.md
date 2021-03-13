@@ -60,8 +60,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 | **FR3** | TBD | TBD |
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 |  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
@@ -69,4 +67,4 @@ Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 | **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors | UC1, UC2, UC3 |
 | **NFR3** | TBD | TBD |
 
-Indicate which UC the requirement comes from.
+

@@ -57,7 +57,7 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
   
-|  Functional requirements |   Definition |    Use-Case | 
+|  ***Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
 | **FR1** | The system shall get user geo-location | UC2 |
 | **FR2** | The system shall get the less polluted areas from database | UC2 |

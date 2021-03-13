@@ -67,4 +67,10 @@ TODO: create a list of functional requirements.
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
+|  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
+| -------------------------------------- | ------------------- | ------------------- |
+| **NFR1** | TBD | TBD |
+| **NFR2** | TBD | TBD |
+| **NFR3** | TBD | TBD |
+
 Indicate which UC the requirement comes from.

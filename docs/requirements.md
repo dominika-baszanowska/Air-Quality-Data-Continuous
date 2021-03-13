@@ -28,7 +28,7 @@ TODO: Describe each use case (one per team member).
 | **Description** | As a person exercising outdoors I want to be able to find the less poluted areas on a map |
 | **Actors** | Anyone exercising outdoors |
 | **Assumptions** | Geo-location is supported on the person's device |
-| **Steps** | <ul><li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li><li>Give permission for geo-location<li><li>Get less polluted areas from database<li><li>View list of less pulluted areas<li></ul> |
+| **Steps** | <ul><li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li><li>Give permission for geo-location</li><li>Get less polluted areas from database</li><li>View list of less pulluted areas</li></ul> |
 
 | UC3        | TBD | 
 | -------------------------------------- | ------------------- |

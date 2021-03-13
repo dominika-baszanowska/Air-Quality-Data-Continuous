@@ -55,11 +55,11 @@ TODO: create a list of functional requirements.
     e.g. "The system shall ..."
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
-| ### Functional requirements       | ### Definition | | ### Use-Case | 
-| -------------------------------------- | ------------------- |
-| **FR1** | The system shall get user geo-location | UC2
-| **FR2** | The system shall get the less polluted areas from database | UC2
-| **FR3** | TBD |
+| ### Functional requirements | ### Definition |  ### Use-Case | 
+| -------------------------------------- | ------------------- | ------------------- |
+| **FR1** | The system shall get user geo-location | UC2 |
+| **FR2** | The system shall get the less polluted areas from database | UC2 |
+| **FR3** | TBD | TBD |
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.

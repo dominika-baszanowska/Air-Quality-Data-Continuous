@@ -23,7 +23,7 @@ TODO: Describe each use case (one per team member).
 | **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundry.|
 | **Steps** | People exercising outdoors would download the app. Next they would type their postcode to enable system to show their area's air qulaity. System would get information from data base to show the pollution level at their present localtion and show  cleaner areas nearby. System would also be connected to maps to show the results more clearly.|
 
-| UC2        | tbd | 
+| UC2        | Find Less Polluted Areas On a Map | 
 | -------------------------------------- | ------------------- |
 | **Description** | tbd |
 | **Actors** | tbd.|

@@ -32,10 +32,10 @@ TODO: Describe each use case (one per team member).
 
 | UC3        | Plan Journey Ahead | 
 | -------------------------------------- | ------------------- |
-| **Description** | TBD |
-| **Actors** | TBD |
-| **Assumptions** | TBD |
-| **Steps** | TBD |
+| **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
+| **Actors** | People who exercise outdoors |
+| **Assumptions** | The user has downloaded the apps, the locations with less polution are the locations the future journey will be planned for |
+| **Steps** |   |
 
 |USE-CASE ID, UC1, UC2...| Use-Case NAME|
 |**Description** | TODO: Goal to be achieved by use-case and sources for requirement.|
@@ -57,7 +57,7 @@ TODO: Your Use-Case diagram should include all use-cases.
 | -------------------------------------- | ------------------- | ------------------- |
 | **FR1** | The system shall get user geo-location | UC2 |
 | **FR2** | The system shall get the less polluted areas from database | UC2 |
-| **FR3** | TBD | TBD |
+| **FR3** | The system shall allow user to plan a less polluted route  | UC2 |
 
 ### Non-Functional Requirements
 
@@ -65,6 +65,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 | -------------------------------------- | ------------------- | ------------------- |
 | **NFR1** | The app should work on iOS (Portability) | UC1, UC2, UC3 |
 | **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors | UC1, UC2, UC3 |
-| **NFR3** | TBD | TBD |
+| **NFR3** | TBD | UC1, UC2, UC3 |
 
 

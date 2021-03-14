@@ -34,7 +34,7 @@ TODO: Describe each use case (one per team member).
 | -------------------------------------- | ------------------- |
 | **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
 | **Actors** | People who exercise outdoors |
-| **Assumptions** | The user has downloaded the apps, the locations with less polution are the locations the future journey will be planned for |
+| **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less polution are the locations the future journey will be planned for and set to |
 | **Steps** |   |
 
 |USE-CASE ID, UC1, UC2...| Use-Case NAME|

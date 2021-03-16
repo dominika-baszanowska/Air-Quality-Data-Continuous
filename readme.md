@@ -1,6 +1,7 @@
 # Air Quality Data
 
-TBD: Brief outline of your project describing the dataset
+Historic and live continuous air quality data from Bristol City Council and Defra.
+https://opendata.bristol.gov.uk/explore/dataset/air-quality-data-continuous/information/?disjunctive.location
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)

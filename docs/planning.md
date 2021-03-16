@@ -23,6 +23,8 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 * Due to the pandemic, pollution levels might have decreased in general, hence there might be no need to identify which areas have the highest pollution levels, which was one of the benefits of this proposal.
 
 ## Project Scope
+Below is a detailed list of every entity that applies to our project scope:
+
 The scope of this project are people who do any type of exercise, or physical activity outdoors. Also, as the dataset is relevant to Bristol, it is aimed at those living in this city, and to those users with a smart phone. 
 
 ![Insert your Context Diagram Here](images/BPC.jpg)

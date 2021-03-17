@@ -30,5 +30,6 @@ Below is a detailed list of every entity that applies to our project scope:
 * Our app should work in mobile devices with **Android**, or **IOS** as well as on **websites**. 
 * **HTML** will be used for the design process as inticated in the assignment specifications. 
 * **Github** will provide us with the means to work collaboratively as well as a mean of having our documentation checked. 
+* **Similar Apps** will be researched to make sure we provide added value, and not the same features already offered by the common pollution checkers.
 
 ![Insert your Context Diagram Here](images/BPC.jpg)

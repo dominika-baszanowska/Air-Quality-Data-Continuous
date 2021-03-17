@@ -25,8 +25,8 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 ## Project Scope
 Below is a detailed list of every entity that applies to our project scope:
 
-* People who do any type of exercise, or physical activity outdoors. Also, as the dataset is relevant to 
-* Bristol, it is aimed at those living in this city, and to those 
+* **People exercising outdoors** - This audience is to be targeted as they prioritize areas with less pollution to do exercise and will be more likely to use our app than other audiences. 
+* **Bristol**, As the dataset is relevant to Bristol, we are focusing our app in providing value to those living in Bristol only.
 * users with a smart phone. 
 
 ![Insert your Context Diagram Here](images/BPC.jpg)

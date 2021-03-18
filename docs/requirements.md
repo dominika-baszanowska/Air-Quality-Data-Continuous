@@ -64,7 +64,10 @@ TODO: Your Use-Case diagram should include all use-cases.
 |  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
 | **NFR1** | The app should work on iOS (Portability) | UC1, UC2, UC3 |
-| **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors | UC1, UC2, UC3 |
+| **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors (usability) | UC1, UC2, UC3 |
 | **NFR3** | TBD | UC1, UC2, UC3 |
+| **NFR4** | It should display up to 10 nearest less polluted areas on one page (usability) | UC1, UC2, UC3 |
+| **NFR5** | It should make suggestions wheather the area is a good place to exercise or not (usability) | UC1, UC2, UC3 |
+| **NFR6** | It must assume sensible default on a browser with no user geolocation (reliability) | UC1, UC2, UC3
 
 

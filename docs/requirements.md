@@ -68,6 +68,6 @@ TODO: Your Use-Case diagram should include all use-cases.
 | **NFR3** | TBD | UC1, UC2, UC3 |
 | **NFR4** | It should display up to 10 nearest less polluted areas on one page (usability) | UC1, UC2, UC3 |
 | **NFR5** | It should make suggestions wheather the area is a good place to exercise or not (usability) | UC1, UC2, UC3 |
-| **NFR6** | It must assume sensible default on a browser with no user geolocation (reliability) | UC1, UC2, UC3
+| **NFR6** | It must show current location pollution level (reliability) | UC1, UC2, UC3
 
 

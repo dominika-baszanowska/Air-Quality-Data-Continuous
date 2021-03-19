@@ -36,7 +36,7 @@
 | **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less polution are the locations the future journey will be planned for and set to |
 | **Steps** | Users download the app then enter their postcode so the system can collect data then show areas of low pollution. The user can then decide which route is best to take for their future outdoor exercie. 
 
-## Use-Case diagram
+### Use-Case diagram
 
 ![Insert your Use-Case-Diagram Here](images/image_usecase.png)
 

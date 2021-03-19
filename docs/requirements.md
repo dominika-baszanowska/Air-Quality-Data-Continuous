@@ -36,16 +36,8 @@
 | **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less polution are the locations the future journey will be planned for and set to |
 | **Steps** | Users download the app then enter their postcode so the system can collect data then show areas of low pollution. The user can then decide which route is best to take for their future outdoor exercie. 
 
-|USE-CASE ID, UC1, UC2...| Use-Case NAME|
-|**Description** | TODO: Goal to be achieved by use-case and sources for requirement.|
-|**Actors** | TODO: List of actors involved in use-case.|
-|**Assumption** | TODO: Pre/post-conditions if any</td></tr> |
-| **Steps** | TODO: Interactions between system and actors necessary to achieve goal.|
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+## Use-Case diagram
 
-TODO: Your Use-Case diagram should include all use-cases.
 ![Insert your Use-Case-Diagram Here](images/image_usecase.png)
 
 ## Software Requirements Specification

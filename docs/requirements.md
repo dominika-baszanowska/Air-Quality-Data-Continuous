@@ -46,9 +46,11 @@
   
 |  ***Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
-| **FR1** | The system shall get user geo-location | UC2 |
-| **FR2** | The system shall get the less polluted areas from database | UC2 |
-| **FR3** | The system shall allow user to plan a less polluted route  | UC2 |
+| **FR1** | The system could get user geo-location. | UC2 |
+| **FR2** | The system shall get the less polluted areas from database. | UC2 |
+| **FR3** | The system should allow users to plan ahead a less polluted route.  | UC2 |
+| **FR4** | The system won't act as a GPS to guide people to the less pulluted areas. | UC2 |
+| **FR4** | The system won't acs as a GPS to guide people to the less pulluted areas. | UC3 |
 
 ### Non-Functional Requirements
 

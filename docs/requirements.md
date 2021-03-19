@@ -50,15 +50,13 @@
 | **FR2** | The system shall get the less polluted areas from database. | UC2 |
 | **FR3** | The system should allow users to plan ahead a less polluted route.  | UC2 |
 | **FR4** | The system won't act as a GPS to guide people to the less pulluted areas. | UC3 |
-| **FR4** | The system won't acs as a GPS to guide people to the less pulluted areas. | UC3 |
 
 ### Non-Functional Requirements
 
 |  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
-| **NFR1** | The app should work on iOS (Portability) | UC1, UC2, UC3 |
+| **NFR1** | The app should work on iOS (Portability) | UC1 |
 | **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors (usability) | UC1, UC2, UC3 |
-| **NFR3** | TBD | UC1, UC2, UC3 |
 | **NFR4** | It should display up to 10 nearest less polluted areas on one page (usability) | UC1, UC2, UC3 |
 | **NFR5** | It should make suggestions wheather the area is a good place to exercise or not (usability) | UC1, UC2, UC3 |
 | **NFR6** | It must show current location pollution level (reliability) | UC1, UC2, UC3

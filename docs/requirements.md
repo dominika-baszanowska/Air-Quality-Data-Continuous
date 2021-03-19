@@ -8,13 +8,12 @@
 - Environment and health concious people.
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit). 
+
+1. As a daily runner I want to exercise in an area with the less possible amount of CO2, so that I can maximize quality air consumption to increase my performance.
+2. As middle age person exercising outdoors I want to find the less polluted area on Bristol so that I can continue to live a healthy life, and maintain motivated to do so. 
+3. As a person with asthma I want to find a place in Bristol where there is little pollution so that I can enjoy a walk with my friends.
 
 ### Use Cases
-TODO: Describe each use case (one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
 
 | UC1        | Exercising Outdoors | 
 | -------------------------------------- | ------------------- |

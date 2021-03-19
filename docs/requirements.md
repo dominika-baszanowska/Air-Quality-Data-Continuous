@@ -56,9 +56,9 @@
 |  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
 | **NFR1** | The app should work on iOS (Portability) | UC1 |
-| **NFR2** | Less polluted areas should to be no further than 1 mile from person looking to exercise outdoors (usability) | UC1, UC2, UC3 |
-| **NFR4** | It should display up to 10 nearest less polluted areas on one page (usability) | UC1, UC2, UC3 |
-| **NFR5** | It should make suggestions wheather the area is a good place to exercise or not (usability) | UC1, UC2, UC3 |
-| **NFR6** | It must show current location pollution level (reliability) | UC1, UC2, UC3
+| **NFR2** | Less polluted areas should not be further than 1 mile from person looking to exercise outdoors (usability) | UC2 |
+| **NFR4** | It should display up to 5 nearest less polluted areas on one page (usability) | UC3 |
+| **NFR5** | It could make suggestions wheather the area is a good place to exercise or not (usability) | UC1, UC2, UC3 |
+| **NFR6** | It must show current pollution levels in the location provided (reliability) | UC1, UC2, UC3 |
 
 

@@ -3,9 +3,11 @@
 ## User Needs
 
 ### Actors
-- People exercising outdoors, such as runners, cyclist, walkers etc. 
-- People living within Bristol, interested in air quality.
-- Environment and health concious people.
+1. People exercising outdoors, such as runners, cyclist, walkers etc. 
+2. People living within Bristol, interested in air quality.
+3. Environment and health concious people.
+4. People suffering from certain diseases where fresh air is important for them e.g. asthma.
+5. A maintainer, who takes care of the app, fixes problems and develops new features. 
 
 ### User stories
 
@@ -19,12 +21,12 @@
 | -------------------------------------- | ------------------- |
 | **Description** | People that are exercising outdoors should have access to air quality data. That would allow them choose areas that are less polluted. Aiming to find best quality air locally for their sport activity.|
 | **Actors** | People, that are active outdoors e.g. cyclist, runners.|
-| **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundry.|
-| **Steps** | People exercising outdoors would download the app. Next they would type their postcode to enable system to show their area's air qulaity. System would get information from data base to show the pollution level at their present localtion and show  cleaner areas nearby. System would also be connected to maps to show the results more clearly.|
+| **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundary.|
+| **Steps** | People exercising outdoors would download the app. Next they would type their postcode to enable system to show their area's air qulaity. System would get information from data base to show the pollution level at their present location and show cleaner areas nearby. System would also be connected to maps to show the results more clearly.|
 
 | UC2        | Find Less Polluted Areas On a Map | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person exercising outdoors I want to be able to find the less poluted areas on a map |
+| **Description** | As a person exercising outdoors I want to be able to find the less polluted areas on a map |
 | **Actors** | Anyone exercising outdoors |
 | **Assumptions** | Geo-location is supported on the person's device |
 | **Steps** | <ul><li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li><li>Give permission for geo-location</li><li>Get less polluted areas from database</li><li>View list of less pulluted areas</li></ul> |
@@ -33,8 +35,8 @@
 | -------------------------------------- | ------------------- |
 | **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
 | **Actors** | People who exercise outdoors |
-| **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less polution are the locations the future journey will be planned for and set to |
-| **Steps** | Users download the app then enter their postcode so the system can collect data then show areas of low pollution. The user can then decide which route is best to take for their future outdoor exercie. 
+| **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less pollution are the locations the future journey will be planned for and set to |
+| **Steps** | Users download the app then enter their postcode so the system can collect data then show areas of low pollution. The user can then decide which route is best to take for their future outdoor exercise. 
 
 ### Use-Case diagram
 

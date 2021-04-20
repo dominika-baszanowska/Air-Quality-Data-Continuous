@@ -17,7 +17,7 @@
 
 ### Use Cases
 
-| UC1        | Exercising Outdoors | 
+| UC1        | View Pollution Data Using an Area Dropdown | 
 | -------------------------------------- | ------------------- |
 | **Description** | People that are exercising outdoors should have access to air quality data. That would allow them choose areas that are less polluted. Aiming to find best quality air locally for their sport activity.|
 | **Actors** | People, that are active outdoors e.g. cyclist, runners.|

@@ -1,0 +1,67 @@
+<html>
+
+<head>
+
+    <title> Air Data Quality </title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'ph ph ph ph ph'
+                'ln cn cn cn cn'
+                'pf pf pf pf pf';
+        }
+
+        #page-header {
+            grid-area: ph;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        #local-navigation {
+            grid-area: ln;
+        }
+
+        #contextual-navigation {
+            grid-area: cn;
+        }
+
+        #page-footer {
+            grid-area: pf;
+        }
+
+        .map { width: 800px;}
+
+        .heading {
+            font-family: sans-serif;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div id="page-header">
+            <span class="heading">Air Quality Data</span>
+        </div>
+        <div id="local-navigation">
+            <button class="w3-btn w3-blue w3-block w3-border w3-border-white w3-round">Less Polluted areas</button>
+            <button class="w3-btn w3-blue w3-block w3-border w3-border-white w3-round">Geo location</button>
+        </div>
+
+        <div id="contextual-navigation">
+            <img class="map" src="map.png">
+            
+
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>

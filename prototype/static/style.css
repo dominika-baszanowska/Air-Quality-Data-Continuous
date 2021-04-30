@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'ph ph ph ph ph'
+      'ln cn cn cn cn'
+      'pf pf pf pf pf';
+  }
+  
+  #page-header {
+    grid-area: ph;
+  }
+  
+  #local-navigation {
+    grid-area: ln;
+  }
+     
+  #contextual-navigation {
+    grid-area: cn;
+  }
+  
+  #page-footer {
+    grid-area: pf;
+  }
+ 

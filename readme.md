@@ -1,6 +1,7 @@
 # Air Quality Data
 
 Historic and live continuous air quality data from Bristol City Council and Defra.
+Link to Database can be found below:
 https://opendata.bristol.gov.uk/explore/dataset/air-quality-data-continuous/information/?disjunctive.location
 
 1. [Planning](docs/planning.md)

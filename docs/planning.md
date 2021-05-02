@@ -26,7 +26,7 @@ Pollution is known to have a harmful effect on people who are exposed to it on a
 Below is a detailed list of every entity that applies to our project scope:
 
 * **People exercising outdoors** - This audience is to be targeted as they prioritize areas with less pollution to do exercise and will be more likely to use our app than other audiences. 
-* **Bristol**, As the dataset is relevant to Bristol, we are focusing our app in providing value to those living in Bristol only.
+* **Bristol** - As the dataset is relevant to Bristol, we are focusing our app in providing value to those living in Bristol only.
 * Our app should work in mobile devices with **Android**, or **IOS** as well as on **websites**. 
 * **HTML** will be used for the design process as inticated in the assignment specifications. 
 * **Github** will provide us with the means to work collaboratively as well as a mean of having our documentation checked. 

@@ -1,11 +1,27 @@
 # Implementation
 
 ## Introduction
-**System Version:** The current version of the system is 1.0.0.
+**System Version:** The current version of the system is v1.0
 **Dataset:** 
 TODO: Describe the current version of the system (with version number. Describe the dataset. Are there any known issues? Describe any configuration data.
 
 ## Project Structure
+
+```
+├── conf.json
+├── dbconnect
+├── e2e
+├── main.js
+├── node_modules
+├── package-lock.json
+├── package.json
+├── static
+├── test
+└── views
+```
+
+directory: 6 file: 4
+
 TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).
 provide a table listing the number of jslint warnings/reports for each module.
 

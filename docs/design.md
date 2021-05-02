@@ -2,9 +2,12 @@
 
 ## Behavioural design
 
-### Scenario
+### Scenario UC1
 TODO: Describe a concrete scenario for each use-case. 
 Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
+
+### Scenario UC1&2
+
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
 

@@ -1,6 +1,8 @@
 # Implementation
 
 ## Introduction
+**System Version:** The current version of the system is 1.0.0.
+**Dataset:** 
 TODO: Describe the current version of the system (with version number. Describe the dataset. Are there any known issues? Describe any configuration data.
 
 ## Project Structure

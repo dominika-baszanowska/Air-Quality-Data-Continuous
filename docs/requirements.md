@@ -49,7 +49,7 @@
 
 ### Use-Case diagram
 
-![Insert your Use-Case-Diagram Here](images/image_usecase.png)
+![Insert your Use-Case-Diagram Here](images/image_usecase_v1.png)
 
 ## Software Requirements Specification
 
@@ -61,6 +61,7 @@
 | **FR2** | The system shall get the less polluted areas from database. | UC2 |
 | **FR3** | The system should allow users to plan ahead a less polluted route.  | UC2 |
 | **FR4** | The system won't act as a GPS to guide people to the less polluted areas. | UC3 |
+| **tbd** | tbd | tbd |
 
 ### Non-Functional Requirements
 

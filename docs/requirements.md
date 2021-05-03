@@ -28,7 +28,7 @@
 | **Steps** | People exercising outdoors would download the app. Next they would choose their area from dropdown available. System would get information from data base to show the pollution level at the chosen location and show cleaner areas nearby.|
 | **Variations** |  |
 | **Non-functional** |  |
-| **Issues** |  |
+| **Issues** | Some specific location data may not be available. |
 
 | UC2        | See the most polluted areas| 
 | -------------------------------------- | ------------------- |

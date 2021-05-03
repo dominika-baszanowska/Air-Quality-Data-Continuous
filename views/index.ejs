@@ -1,106 +1,23 @@
 <html>
-
-<head>
-
-    <title> Air Data Quality </title>
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-areas:
-                'ph ph ph ph ph'
-                'ln cn cn cn cn'
-                'pf pf pf pf pf';
-        }
-
-        #page-header {
-            grid-area: ph;
-            padding: 20px 10px;
-            text-align: center;
-        }
-
-        #local-navigation {
-            grid-area: ln;
-        }
-
-        #contextual-navigation {
-            grid-area: cn;
-        }
-
-        #page-footer {
-            grid-area: pf;
-        }
-
-        .heading {
-            font-family: sans-serif;
-            font-size: x-large;
-        }
-    </style>
-</head>
-
-<body>
-
+  <%# the < % - is raw output, to avoid escaping HTML %> 
+  <%- include("templates/head.ejs"); %>
+  <body>
     <div class="grid-container">
-        <main>
-            <div id="page-header">
-                <span class="heading">Air Quality Data</span>
-            </div>
-            <div id="local-navigation">
-                <button onclick="location.href='map.html';"
-                    class="w3-btn w3-blue w3-block w3-border w3-border-white w3-round">Less Polluted areas</button>
-                <button onclick="location.href='index.html';"
-                    class="w3-btn w3-blue w3-block w3-border w3-border-white w3-round">Geo location</button>
-            </div>
-            <div id="contextual-navigation">
-                <div class="w3-bar we3-green">
-                    <button onclick="location.href='index.html?type=Less%20Polluted';"
-                        class="w3-bar-item w3-button w3-ripple"> Find less polluted area on a map</button>
-                </div>
-    
-    
-                <table>
-    
-                    <body>
-                        <tr>
-                            <th>Date Time</th>
-                            <th>NOX</th>
-                            <th>NO2</th>
-                            <th>Location</th>
-                        </tr>
-                        <% for (var i=0; i<rows.length; i++) { %>
-                            <tr>
-                                <td>
-                                    <%= rows[i]['Date Time']%>
-                                </td>
-                                <td>
-                                    <%= rows[i].NOx %>
-                                </td>
-                                <td>
-                                    <%= rows[i].NO2 %>
-                                </td>
-                                <td>
-                                    <%= rows[i].location %>
-                                </td>
-                            </tr>
-                            <% } %>
-    
-                    </body>
-                </table>
-    
-                <!-- <table class="w3-table"> -->
-                <!--% <tr><th>Name</th><th>Maintained by</th><th>Type</th></tr> %-->
-                <!--%= <tr><td>UWE - Q -Blocl</td><td>Bike Pump and Tool Station</td><td>UWE</td></tr> %-->
-                <!-- </table>-->
-    
-            </div>
+      <%- include("templates/header.ejs"); %>
+      <%- include("templates/nav.ejs"); %>
+      <main>
+        <div class="w3-bar w3-green">
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?type=Bike Tool Station';">Bike Tool Station</button>
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?type=On street bike pump';">On street bike pump</button>
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?type=Bike Pump %26 Tool Station';">Bike Pump & Tool Station</button>
+        </div>
+        <!-- set type to empty string if its empty -->
+        <% if (typeof type == 'undefined') type="" %>
+        <%= type %>
+      </main>
     </div>
-    
-    </main>
-    
-    
-    </body>
-
-
+  </body>
 </html>

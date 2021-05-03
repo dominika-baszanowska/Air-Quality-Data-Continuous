@@ -3,9 +3,9 @@
 ## Introduction
 **System Version:** The current version of the system is v1.0
 
-**Dataset:** The dataset used is called Air Quality Data Continuous, it was published on the Open Data Bristol website by the Sustainability Team.  Broadly speaking the dataset contains measurements on pollution across different areas of Bristol during different times of day.
+**Dataset:** The dataset used is called Air Quality Data Continuous. It was published on the Open Data Bristol website by the Sustainability Team.  Broadly speaking the dataset contains measurements of different types of pollutants across areas of Bristol during different times of day.
 
-**Issues:** Since the dataset also contains historic measurements from as far as 1993, it became highly complex to download more than 1 million records, even downloading records from one year also proved complex, as such it was agreed with Steve to download records from a particular month (March) from a given year (2021) and then upload it to the schema ISD on MySQL. 
+**Issues:** Since the dataset also contains historic measurements from as far as 1993, it became highly complex to download more than 1 million records. Downloading records from one year also proved complex, as such it was agreed with Steve to download records from a particular month (March) from a given year (2021) and then upload it to the schema ISD on MySQL. 
 
 **Configuration data:** MySQL created a sys schema that works as configuration data.
 

@@ -20,17 +20,17 @@
 
 ### Use Cases
 
-| UC1        | View Pollution Data Using an Area Dropdown | 
+| UC1        | See my area pollution level | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person interested in pollution data, I want to view data by area. This will be done with a page which will contain a dropdown with all available locations. Selecting the dropdown will then display the pollution data for the corresponding location.|
-| **Actors** | People, that are active outdoors e.g. cyclist, runners. People interested in pollution level.|
+| **Description** | As a person interested in pollution data, I want to view pollution levels in my area. I would like to know air conditions at my daily location and be able to choose different places to go out for an activity if needed.|
+| **Actors** | Healthy Citizens.|
 | **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundary.|
 | **Steps** | People exercising outdoors would download the app. Next they would choose their area from dropdown available. System would get information from data base to show the pollution level at the chosen location and show cleaner areas nearby.|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |
 
-| UC2        | Find Less Polluted Areas On a Map | 
+| UC2        | See the most polluted areas| 
 | -------------------------------------- | ------------------- |
 | **Description** | As a person exercising outdoors I want to be able to find the less polluted areas on a map |
 | **Actors** | Anyone exercising outdoors |
@@ -40,7 +40,7 @@
 | **Non-functional** |  |
 | **Issues** |  |
 
-| UC3        | Plan Journey Ahead | 
+| UC3        | Find less polluted locations | 
 | -------------------------------------- | ------------------- |
 | **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
 | **Actors** | People who exercise outdoors |

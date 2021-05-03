@@ -1,25 +1,24 @@
 {
-  "name": "air-quality-data-continuous",
+  "name": "prototype",
   "version": "1.0.0",
-  "description": "ISD1",
+  "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "test": "package.json"
+    "test": "mocha",
+    "testcafe": "testcafe chrome e2e"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Domidev77/Air-Quality-Data-Continuous.git"
-  },
-  "keywords": [
-    "database"
-  ],
-  "author": "John",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Domidev77/Air-Quality-Data-Continuous/issues"
+  "dependencies": {
+    "ejs": "3.1.6",
+    "express": "4.17.1",
+    "mysql": "^2.18.1"
   },
-  "homepage": "https://github.com/Domidev77/Air-Quality-Data-Continuous#readme"
+  "devDependencies": {
+    "mocha": "8.3.2",
+    "testcafe": "^1.14.0"
+  },
+  "directories": {
+    "test": "test"
+  }
 }

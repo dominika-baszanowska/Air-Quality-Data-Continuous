@@ -18,7 +18,7 @@
 ├── main.js
 ├── node_modules
 ├── package-lock.json
-├── package.json
+├── package.json // JavaScript Oeject Notation - Used for configuration data
 ├── static
 ├── test
 └── views

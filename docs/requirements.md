@@ -33,7 +33,7 @@
 | UC2        | See the most polluted areas| 
 | -------------------------------------- | ------------------- |
 | **Description** | As a person exercising outdoors I want to be able to find the less polluted areas on a map |
-| **Actors** | Anyone exercising outdoors |
+| **Actors** | Healthy Citizens. |
 | **Assumptions** | Geo-location is supported on the person's device |
 | **Steps** | <ol>  <li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li> <li>Give permission for geo-location</li> <li>Get less polluted areas from database</li> <li>View list of less polluted areas</li> </ol>  |
 | **Variations** |  |
@@ -43,7 +43,7 @@
 | UC3        | Find less polluted locations | 
 | -------------------------------------- | ------------------- |
 | **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
-| **Actors** | People who exercise outdoors |
+| **Actors** | Healthy Citizens. |
 | **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less pollution are the locations the future journey will be planned for and set to |
 | **Steps** | Users download the app then enter their postcode so the system can collect data then show areas of low pollution. The user can then decide which route is best to take for their future outdoor exercise. 
 | **Variations** |  |

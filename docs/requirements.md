@@ -3,11 +3,14 @@
 ## User Needs
 
 ### Actors tbc
-1. People exercising outdoors, such as runners, cyclist, walkers etc. 
-2. People living within Bristol, interested in air quality.
-3. Environment and health concious people.
-4. People suffering from certain diseases where fresh air is important for them e.g. asthma.
-5. A maintainer, who takes care of the app, fixes problems and develops new features. 
+
+**Healthy Citizen**
+    1. People exercising outdoors, such as runners, cyclist, walkers etc. 
+    2. People living within Bristol, interested in air quality.
+    3. Environment and health concious people.
+    4. People suffering from certain diseases where fresh air is important for them e.g. asthma.
+
+**Maintainer** who takes care of the app, fixes problems and develops new features. 
 
 ### User stories
 

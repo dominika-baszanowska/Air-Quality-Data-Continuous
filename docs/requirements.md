@@ -52,9 +52,8 @@
 
 ### Use-Case diagram
 
-![Insert your Use-Case-Diagram Here](images/image_usecase_v1.png)
+![Insert your Use-Case-Diagram Here](images/UseCaseDiagram.png)
 
-![Insert your Use-Case-Diagram Here](images/UseCaseDiagram2.png)
 ## Software Requirements Specification
 
 ### Functional requirements

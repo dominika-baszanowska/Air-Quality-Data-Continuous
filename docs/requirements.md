@@ -30,17 +30,8 @@
 | **Non-functional** |  |
 | **Issues** | Some specific location data may not be available. |
 
-| UC2        | See the most polluted areas| 
-| -------------------------------------- | ------------------- |
-| **Description** | As a person exercising outdoors I want to be able to find the less polluted areas on a map |
-| **Actors** | Healthy Citizens. |
-| **Assumptions** | Geo-location is supported on the person's device |
-| **Steps** | <ol>  <li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li> <li>Give permission for geo-location</li> <li>Get less polluted areas from database</li> <li>View list of less polluted areas</li> </ol>  |
-| **Variations** |  |
-| **Non-functional** |  |
-| **Issues** |  |
 
-| UC3        | Find less polluted locations | 
+| UC2        | See the most polluted area | 
 | -------------------------------------- | ------------------- |
 | **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
 | **Actors** | Healthy Citizens. |
@@ -50,6 +41,16 @@
 | **Non-functional** |  |
 | **Issues** |  |
 
+
+| UC3       | Find less polluted area| 
+| -------------------------------------- | ------------------- |
+| **Description** | As a person exercising outdoors I want to be able to find the less polluted areas on a map |
+| **Actors** | Healthy Citizens. |
+| **Assumptions** | Geo-location is supported on the person's device |
+| **Steps** | <ol>  <li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li> <li>Give permission for geo-location</li> <li>Get less polluted areas from database</li> <li>View list of less polluted areas</li> </ol>  |
+| **Variations** |  |
+| **Non-functional** |  |
+| **Issues** |  |
 ### Use-Case diagram
 
 ![Insert your Use-Case-Diagram Here](images/UseCaseDiagram.png)

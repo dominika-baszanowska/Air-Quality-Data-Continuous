@@ -12,6 +12,10 @@ A granpa is taking his grandsons out for a walk, but he knows it is peak hour so
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC1_SequenceDiagram.png)
 
+### Sequence Diagram UC2
+
+![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC2_SequenceDiagram.png)
+
 ### Sequence Diagram UC2&3
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/uc2_3_sq.png)

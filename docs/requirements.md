@@ -25,18 +25,18 @@
 | **Description** | As a person interested in pollution data, I want to view pollution levels in my area. I would like to know air conditions at my daily location and be able to choose different places to go out for an activity if needed.|
 | **Actors** | Healthy Citizens.|
 | **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundary.|
-| **Steps** | <ol> <li> Download the app.</li><li>Choose your area from the dropdown available.</li><li>Get the chosen area information from database.</li><li>Show the results to the user.</li><li>Suggest less polluted areas nearby.|
+| **Steps** | <ol> <li> Download the app.</li><li>Choose your area from the dropdown available.</li><li>Get the chosen area information from database.</li><li>Show the results to the user.</li><li>Suggest less polluted areas nearby.</li> </ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** | Some specific location data may not be available. |
 
 
-| UC2        | See the most polluted area | 
+| UC2        | See the most polluted areas | 
 | -------------------------------------- | ------------------- |
-| **Description** | Those who exercise outdoors should know which areas are less polluted as it allows them to plan future journeys whilst being health conscious |
+| **Description** | As a person exercising outdoors I would like to know which areas are most polluted, as it allows me to plan future journeys whilst being health conscious. |
 | **Actors** | Healthy Citizens. |
-| **Assumptions** | Assuming the user has downloaded the app and entered their postcode, the locations with less pollution are the locations the future journey will be planned for and set to |
-| **Steps** | Users download the app then enter their postcode so the system can collect data then show areas of low pollution. The user can then decide which route is best to take for their future outdoor exercise. 
+| **Assumptions** | Assuming the user has downloaded the app. |
+| **Steps** | <ol> <li>User download the app.</li><li>The user enter their postcode.</li><li>Thhe system collect data from database.</li><li>Displaying results for given postcode.</li> </ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |
@@ -44,9 +44,9 @@
 
 | UC3       | Find less polluted area| 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person exercising outdoors I want to be able to find the less polluted areas on a map |
+| **Description** | As a person exercising outdoor and interested in air quality I want to be able to find the less polluted area. |
 | **Actors** | Healthy Citizens. |
-| **Assumptions** | Geo-location is supported on the person's device |
+| **Assumptions** | Geo-location is supported on the person's device. |
 | **Steps** | <ol>  <li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li> <li>Give permission for geo-location</li> <li>Get less polluted areas from database</li> <li>View list of less polluted areas</li> </ol>  |
 | **Variations** |  |
 | **Non-functional** |  |

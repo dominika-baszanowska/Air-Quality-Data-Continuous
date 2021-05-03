@@ -26,8 +26,13 @@
 
 directory: 6 file: 4
 
-TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).
-provide a table listing the number of jslint warnings/reports for each module.
+
+| **Module**        | **Warnings** | **Error** |
+| -------------------------------------- | ------------------- | ------------------- |
+| **Packaje.json** | 0 warnings| 1 Error |
+| **Conf** | 0 warnings| 1 Error |
+| **Main** | 0 warnings| 16 Errors |
+
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?

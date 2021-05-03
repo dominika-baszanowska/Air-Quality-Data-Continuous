@@ -16,9 +16,9 @@ A granpa is taking his grandsons out for a walk, but he knows it is peak hour so
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC2_SequenceDiagram.png)
 
-### Sequence Diagram UC2&3
+### Sequence Diagram UC3
 
-![Insert your Interaction/Sequence Diagrams for each use-case here.](images/uc2_3_sq.png)
+![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC3_SequenceDiagram.png)
 
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.

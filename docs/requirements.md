@@ -25,7 +25,11 @@
 | **Description** | As a person interested in pollution data, I want to view pollution levels in my area. I would like to know air conditions at my daily location and be able to choose different places to go out for an activity if needed.|
 | **Actors** | Healthy Citizens.|
 | **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundary.|
-| **Steps** | People exercising outdoors would download the app. Next they would choose their area from dropdown available. System would get information from data base to show the pollution level at the chosen location and show cleaner areas nearby.|
+| **Steps** | 1. Download the app.
+2. Choose your area from the dropdown available.
+3. Get the chosen area information from database.
+4. Show the results to the user.
+5. Suggest less polluted areas nearby.|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** | Some specific location data may not be available. |

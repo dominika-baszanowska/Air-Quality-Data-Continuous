@@ -6,8 +6,9 @@ process.env.NODE_ENV=process.env.NODE_ENV || `dev`;
 //const QUERY = "SELECT * FROM `air-quality-data-continuous (2)`";
 const QUERY = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? ";
 
-// configure express to use embedded javascript
 var app = express();
+
+// configure express to use embedded javascript
 app.set("view engine" , "ejs")
 
 //serve static content from 'static' folder
@@ -15,25 +16,36 @@ app.use(express.static('static'));
 
 //callback function for the splash page request handler
 function splash(request, response) {
-    connection.query(QUERY,[request.query.location], function(err, rows, fields) {
-        if (err) {
-            response.status(500);
-            response.send(err);
-        }
-        response.render("index", {'rows': rows });  
-    });
 
+    //connection.query(QUERY,function(err, rows, fields) {
+        //if (err) throw err;
+        //response.render(`index`, {"rows": rows});
+      //  });
+ //}
+    connection.query(QUERY,[request.query.location], function(err, rows, fields) {
+        if (err) throw err;
+        response.render(`index`, {"rows": rows});
+        
+    });
 }
 //splash page (index.html) is served by default
 app.get("/", splash);
 app.get("/index.html" , splash);
 
+//Map
 app.get('/map.html' , function(request, response){
-    response.render("Map" );
+    response.render("Map", request.query );
 });
 
-app.get('/search.html' , function(request, response){
-    response.render("Search" );
+//Search
+app.get("/search.html", function(request, response) {
+    connection.query(SEARCH_QUERY, ["%"+request.query.search+"%"], function(err, rows, fields) {
+        if (err) {
+            response.status(500);
+            response.send(err);
+        }
+        else response.render("search", { 'rows': rows });
+    });
 });
 
 //app.listen(conf [process.env.NODE_ENV] .port); 

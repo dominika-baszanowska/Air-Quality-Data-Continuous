@@ -6,17 +6,23 @@
       <%- include("templates/header.ejs"); %>
       <%- include("templates/nav.ejs"); %>
       <main>
-        <div class="w3-bar w3-green">
+        <div class="w3-bar w3-blue">
           <button class="w3-bar-item w3-button w3-ripple"
-          onclick="location.href='index.html?type=Bike Tool Station';">Bike Tool Station</button>
+          onclick="location.href='index.html?location=Brislington Depot';">Brislington Depot</button>
           <button class="w3-bar-item w3-button w3-ripple"
-          onclick="location.href='index.html?type=On street bike pump';">On street bike pump</button>
+          onclick="location.href='index.html?location=Parson Street School';">Parson Street School</button>
           <button class="w3-bar-item w3-button w3-ripple"
-          onclick="location.href='index.html?type=Bike Pump %26 Tool Station';">Bike Pump & Tool Station</button>
+          onclick="location.href='index.html?location=Wells Road';">Wells Road</button>
         </div>
-        <!-- set type to empty string if its empty -->
-        <% if (typeof type == 'undefined') type="" %>
-        <%= type %>
+        <table><body>
+          <tr><th>Nitrogen Dioxide (NO2)</th><th>Location</th></tr>
+          <% for (var i=0; i<rows.length; i++) { %>
+          <tr>
+            <td><%= rows[i].NO2 %></td>
+            <td><%= rows[i].Location %></td>
+          </tr>
+          <% } %>
+      </body></table>
       </main>
     </div>
   </body>

@@ -25,3 +25,4 @@ connection.query(QUERY, ["On street bike pump"], function(err, rows, fields) {
 });
 
 connection.end();
+console.log("finished");

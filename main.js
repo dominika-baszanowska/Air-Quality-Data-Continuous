@@ -3,8 +3,11 @@ const mysql = require("mysql");
 const conf = require(`./conf.json`);
 process.env.NODE_ENV=process.env.NODE_ENV || `dev`;
 
-//const QUERY = "SELECT * FROM `air-quality-data-continuous (2)`";
-const QUERY = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? ";
+const QUERY1 = "SELECT * FROM `air-quality-data-continuous (2)`";
+const QUERY2 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? ";
+const QUERY3 = "SELECT * FROM `air-quality-data-continuous (2)` where location Like ? ";
+const QUERY4 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 >= 100.0 ";
+const QUERY5 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 <= 8.0 "
 
 var app = express();
 
@@ -16,17 +19,24 @@ app.use(express.static('static'));
 
 //callback function for the splash page request handler
 function splash(request, response) {
-
-    //connection.query(QUERY,function(err, rows, fields) {
-        //if (err) throw err;
-        //response.render(`index`, {"rows": rows});
-      //  });
- //}
-    connection.query(QUERY,[request.query.location], function(err, rows, fields) {
-        if (err) throw err;
-        response.render(`index`, {"rows": rows});
-        
-    });
+    if (typeof request.query.location == `undefined`) {
+        connection.query(QUERY1, function (err, rows, fields) {
+            if (err) {
+                response.status(500);
+                response.send(err);
+            }
+            response.render(`index`, { "rows": rows });
+        });
+    }
+    else {
+        connection.query(QUERY2, [request.query.location], function (err, rows, fields) {
+            if (err) {
+                response.status(500);
+                response.send(err);
+            }
+            response.render(`index`, { "rows": rows });
+        });
+    }
 }
 //splash page (index.html) is served by default
 app.get("/", splash);
@@ -39,13 +49,57 @@ app.get('/map.html' , function(request, response){
 
 //Search
 app.get("/search.html", function(request, response) {
-    connection.query(SEARCH_QUERY, ["%"+request.query.search+"%"], function(err, rows, fields) {
+    connection.query(QUERY3, ["%"+request.query.search+"%"], function(err, rows, fields) {
         if (err) {
             response.status(500);
             response.send(err);
         }
         else response.render("search", { 'rows': rows });
     });
+});
+
+//Higher levels of pollution
+app.get('/higher.html' , function(request, response){
+    if (typeof request.query.location == `undefined`) {
+        connection.query(QUERY4, function (err, rows, fields) {
+            if (err) {
+                response.status(500);
+                response.send(err);
+            }
+            response.render(`higher`, { "rows": rows });
+        });
+    }
+    else {
+        connection.query(QUERY2, [request.query.location], function (err, rows, fields) {
+            if (err) {
+                response.status(500);
+                response.send(err);
+            }
+            response.render(`higher`, { "rows": rows });
+        });
+    }
+});
+
+//Lower levels of pollution
+app.get('/lower.html' , function(request, response){
+    if (typeof request.query.location == `undefined`) {
+        connection.query(QUERY5, function (err, rows, fields) {
+            if (err) {
+                response.status(500);
+                response.send(err);
+            }
+            response.render(`lower`, { "rows": rows });
+        });
+    }
+    else {
+        connection.query(QUERY2, [request.query.location], function (err, rows, fields) {
+            if (err) {
+                response.status(500);
+                response.send(err);
+            }
+            response.render(`lower`, { "rows": rows });
+        });
+    }
 });
 
 //app.listen(conf [process.env.NODE_ENV] .port); 

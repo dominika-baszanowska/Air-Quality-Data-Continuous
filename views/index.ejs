@@ -13,12 +13,23 @@
           onclick="location.href='index.html?location=Parson Street School';">Parson Street School</button>
           <button class="w3-bar-item w3-button w3-ripple"
           onclick="location.href='index.html?location=Wells Road';">Wells Road</button>
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?location=AURN St Pauls';">AURN St Pauls </button>
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?location=Colston Avenue';">C. Avenue</button>
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?location=fishponds road';">Fishponds Road </button>
+          <button class="w3-bar-item w3-button w3-ripple"
+          onclick="location.href='index.html?location=temple way';">Temple Way </button>
         </div>
         <table><body>
-          <tr><th>Nitrogen Dioxide (NO2)</th><th>Location</th></tr>
+          <tr><th>Date Time</th><th>Nitrogen Dioxide (NO2)</th><th>Nitrogen Oxide (NOx)</th><th>Nitric Oxide(NO)</th><th>Location</th></tr>
           <% for (var i=0; i<rows.length; i++) { %>
           <tr>
+            <td><%= rows[i] [`Date Time`] %></td>
             <td><%= rows[i].NO2 %></td>
+            <td><%= rows[i].NOx %></td>
+            <td><%= rows[i].NO %></td>
             <td><%= rows[i].Location %></td>
           </tr>
           <% } %>

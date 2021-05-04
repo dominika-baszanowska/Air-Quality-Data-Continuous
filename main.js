@@ -7,7 +7,9 @@ const QUERY1 = "SELECT * FROM `air-quality-data-continuous (2)`";
 const QUERY2 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? ";
 const QUERY3 = "SELECT * FROM `air-quality-data-continuous (2)` where location Like ? ";
 const QUERY4 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 >= 100.0 ";
-const QUERY5 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 <= 8.0 "
+const QUERY5 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? AND NO2 >= 100.0 ";
+const QUERY6 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 <= 8.0 "
+const QUERY7 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? AND NO2 <= 8.0 ";
 
 var app = express();
 
@@ -70,7 +72,7 @@ app.get('/higher.html' , function(request, response){
         });
     }
     else {
-        connection.query(QUERY2, [request.query.location], function (err, rows, fields) {
+        connection.query(QUERY5, [request.query.location], function (err, rows, fields) {
             if (err) {
                 response.status(500);
                 response.send(err);
@@ -83,7 +85,7 @@ app.get('/higher.html' , function(request, response){
 //Lower levels of pollution
 app.get('/lower.html' , function(request, response){
     if (typeof request.query.location == `undefined`) {
-        connection.query(QUERY5, function (err, rows, fields) {
+        connection.query(QUERY6, function (err, rows, fields) {
             if (err) {
                 response.status(500);
                 response.send(err);
@@ -92,7 +94,7 @@ app.get('/lower.html' , function(request, response){
         });
     }
     else {
-        connection.query(QUERY2, [request.query.location], function (err, rows, fields) {
+        connection.query(QUERY7, [request.query.location], function (err, rows, fields) {
             if (err) {
                 response.status(500);
                 response.send(err);

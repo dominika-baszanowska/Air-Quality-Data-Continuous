@@ -1,7 +1,7 @@
 # Implementation
 
 ## Introduction
-**System Version:** The current version of the system is v1.0
+**System Version:** The current version of the system is  v1.0-alpha.
 
 **Dataset:** The dataset used is called Air Quality Data Continuous. It was published on the Open Data Bristol website by the Sustainability Team.  Broadly speaking the dataset contains measurements of different types of pollutants across areas of Bristol during different times of day.
 

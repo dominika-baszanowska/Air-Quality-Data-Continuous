@@ -9,7 +9,7 @@
 header {
   grid-area: ph;
   padding:20px 10px;
-  background-image: url('bike.png');
+  background-image: url('pollution.jpeg');
 }
 
 .heading { font-family:sans-serif; font-size:x-large; }
@@ -17,12 +17,15 @@ header {
 
 nav {
   grid-area: ln;
+  background-image: url('pollution.jpg');
 }
 
 main {
   grid-area: cn;
+  background-image: url('Earth\ Gif.gif');
 }
 
 footer {
   grid-area: pf;
+  background-image: url('pollution.jpg');
 }

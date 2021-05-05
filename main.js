@@ -109,15 +109,23 @@ app.get('/lower.html' , function(request, response){
 
 //var connection = mysql.createConnection(conf.db);
 var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
-
-connection.connect(function(err){
-	if (err) {
-        response.status(500);
-        response.send(err);
+connection.connect(function (err) {
+    if (err) {
+        console.error("Connection error: ", err.message);
     } else {
-    	console.log("Connected as: ", connection.threadId);    
-	}
+        console.log("Connected as: ", connection.threadId);
+    }
 });
+
+
+//connection.connect(function(err){
+	//if (err) {
+        //response.status(500);
+        //response.send(err);
+    //} else {
+    	//console.log("Connected as: ", connection.threadId);    
+	//}
+//});
 
 if (process.env.NODE_ENV!=`test`) {
     app.listen(conf [process.env.NODE_ENV] .port);

@@ -36,7 +36,7 @@
 | **Description** | As a person exercising outdoors I would like to know which areas are most polluted, as it allows me to plan future journeys whilst being health conscious. |
 | **Actors** | Healthy Citizens. |
 | **Assumptions** | Assuming the user has downloaded the app. |
-| **Steps** | <ol> <li>User download the app.</li><li>The user enter their postcode.</li><li>The system collect data from database.</li><li>Displaying results for given postcode.</li> </ol>|
+| **Steps** | <ol> <li>User download the app.</li><li>The user chooses the location to view. </li><li>The system collect data from database.</li><li>Displaying results for chosen location.</li> </ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |

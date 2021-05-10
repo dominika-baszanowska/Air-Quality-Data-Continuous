@@ -20,14 +20,12 @@ header {
 nav {
   grid-area: ln;
   background-image: url('header.jpg');
+  float: left;
 }
 
 main {
   grid-area: cn;
-  background-image: url('header.jpg');
-  
-    
-
+  background-image: url('header.jpg');  
 }
 
 tr:nth-child(odd) {  

@@ -19,15 +19,15 @@
 
 ### Use Cases
 
-| UC1        | See my area pollution level | 
+| UC1        | See all pollution records from March | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person interested in pollution data, I want to view pollution levels in my area. I would like to know air conditions at my daily location and be able to choose different places to go out for an activity if needed.|
+| **Description** | As my job being advising the Bristol Council on air pollution I want to understand what effect had less traffic as conscequence of the national lockdown on air pollution. To do this I want to be able to see all the records on air pollution from March.|
 | **Actors** | Healthy Citizens.|
-| **Assumptions** | Assume that user would have the app downloaded. Assume, that the user is located within Bristol boundary.|
-| **Steps** | <ol> <li> Opt to view my area pollution levels.</li><li>Choose your area from the dropdown available.</li><li>Get the chosen area information from database.</li><li>Show the results to the user.</li><li>Suggest less polluted areas nearby.</li> </ol>|
+| **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul>|
+| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *See all pollution records from March* on the nav section .</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|
 | **Variations** |  |
 | **Non-functional** |  |
-| **Issues** | Some specific location data may not be available. |
+| **Issues** | Measurements from specific locations may not be available. |
 
 
 | UC2        | Find locations with high pollution levels | 

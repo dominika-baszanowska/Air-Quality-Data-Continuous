@@ -32,7 +32,7 @@
 
 | UC2        | Find locations with high pollution levels | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a long asthma suferer I would like to know which areas are most polluted, as it allows me to plan future journeys whilst preventing my condition to deteriorate. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are higher or equal to 100µg/m3 , and matched against their location and time.  |
+| **Description** | As a long asthma sufferer I would like to know which areas are most polluted, as it allows me to plan future journeys whilst preventing my condition to deteriorate. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are higher or equal to 100µg/m3 , and matched against their location and time.  |
 | **Actors** | Healthy Citizens. |
 | **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul> |
 | **Steps** | <ol><li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with high pollution levels* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|

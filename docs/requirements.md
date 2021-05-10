@@ -14,8 +14,8 @@
 ### User stories
 
 1. As a Bristol health official I want to see the pollution records from March, so that I can study the effects of the national lockdown on air pollution. 
-2. As a runner I want to find the less polluted locations in Bristol, so that I can breathe quality air while doing exercise outdoors. 
-3. As a person with asthma I want to find the most polluted locations in Bristol, so that I can prevent those areas, and my life is not in danger while walking outdoors.
+2. As a person with asthma I want to find the most polluted locations in Bristol, so that I can prevent those areas, and my life is not in danger while walking outdoors.
+3. As a runner I want to find the less polluted locations in Bristol, so that I can breathe quality air while doing exercise outdoors.
 
 ### Use Cases
 
@@ -24,7 +24,7 @@
 | **Description** | As my job being advising the Bristol Council on air pollution I want to understand what effect had less traffic as conscequence of the national lockdown on air pollution. To do this I want to be able to see all the records on air pollution from March.|
 | **Actors** | Healthy Citizens.|
 | **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul>|
-| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *See all pollution records from March* on the nav section .</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|
+| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *See all pollution records from March* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** | Measurements from specific locations may not be available. |
@@ -32,10 +32,10 @@
 
 | UC2        | Find locations with high pollution levels | 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person exercising outdoors I would like to know which areas are most polluted, as it allows me to plan future journeys whilst being health conscious. |
+| **Description** | As a long asthma suferer I would like to know which areas are most polluted, as it allows me to plan future journeys whilst preventing my condition to deteriorate. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are higher or equal to 100µg/m3 , and matched against their location and time.  |
 | **Actors** | Healthy Citizens. |
-| **Assumptions** | Assuming the user has downloaded the app. |
-| **Steps** | <ol> <li>User download the app.</li><li>The user chooses the location to view. </li><li>The system collect data from database.</li><li>Displaying results for chosen location.</li> </ol>|
+| **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul> |
+| **Steps** | <ol><li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with high pollution levels* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |
@@ -43,10 +43,10 @@
 
 | UC3       | Find locations with low pollution levels| 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person exercising outdoor and interested in air quality I want to be able to find the less polluted area. |
+| **Description** | As a person exercising outdoors, I want to be able to find the less polluted locations, and times to improve my performance. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are lower or equal to 8.0µg/m3 , and matched against their location and time.  |
 | **Actors** | Healthy Citizens. |
-| **Assumptions** | Geo-location is supported on the person's device. |
-| **Steps** | <ol>  <li>Opt to view less polluted areas in Bristol</li><li>Request permission to access user location</li> <li>Give permission for geo-location</li> <li>Get less polluted areas from database</li> <li>View list of less polluted areas</li> </ol>  |
+| **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul> |
+| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with low pollution levels* on the nav section</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>  |
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |

@@ -9,21 +9,34 @@
 header {
   grid-area: ph;
   padding:20px 10px;
-  background-image: url('pollution.jpeg');
+  background-image: url('header.jpg');
+
 }
 
-.heading { font-family:sans-serif; font-size:x-large; }
-.search { float:right }
+.heading { font-family:Arial; font-size:x-large; text-align: center; color: rgb(67, 243, 13);}
+.search { float:right ;}
+
 
 nav {
   grid-area: ln;
-  background-image: url('pollution.jpg');
+  background-image: url('header.jpg');
 }
 
 main {
   grid-area: cn;
-  background-image: url('Earth\ Gif.gif');
+  background-image: url('header.jpg');
+  
+    
+
 }
+
+tr:nth-child(odd) {  
+  background: rgb(161, 160, 160);  
+}  
+
+tr:nth-child(even) {  
+  background: rgb(173, 245, 183);  
+}  
 
 footer {
   grid-area: pf;

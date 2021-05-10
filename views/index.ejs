@@ -27,15 +27,15 @@
           <button class="w3-bar-item w3-button w3-ripple"
           onclick="location.href='index.html?location=temple way';">Temple Way </button>
         </div>
-        <table><body>
-          <tr><th>Date Time</th><th>Nitrogen Dioxide (NO2)</th><th>Nitrogen Oxide (NOx)</th><th>Nitric Oxide(NO)</th><th>Location</th></tr>
+        <table style="text-align: center;"> <caption> <b> The below table shows hourly records of three types of pollution particles from several locations across Bristol taken on March 2021 </b></caption><body>
+          <tr style="background-color:MediumSeaGreen;" ><th>Nitrogen Dioxide (NO2)</th><th style="padding: 1%;">Nitrogen Oxide (NOx)</th><th style="padding: 1%;">Nitric Oxide(NO)</th><th style="padding: 1%;">Location</th><th style="padding: 1%;">Date Time</th></tr>
           <% for (var i=0; i<rows.length; i++) { %>
           <tr>
-            <td><%= rows[i] [`Date Time`] %></td>
-            <td><%= rows[i].NO2 %></td>
-            <td><%= rows[i].NOx %></td>
-            <td><%= rows[i].NO %></td>
-            <td><%= rows[i].Location %></td>
+            <td style="padding: 0.5%;"  ><%= rows[i].NO2 %></td>
+            <td style="padding: 0.5%;"><%= rows[i].NOx %></td>
+            <td style="padding: 0.5%;"><%= rows[i].NO %></td>
+            <td style="padding: 0.5%;"><%= rows[i].Location %></td>
+            <td style="padding: 0.5%;"><%= rows[i] [`Date Time`] %></td>
           </tr>
           <% } %>
       </body></table>

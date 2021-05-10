@@ -23,15 +23,15 @@
             onclick="location.href='higher.html?location=temple way';">Temple Way </button>
         </div>
         <!-- request.query.search -->
-        <table><body>
-          <tr><th>Nitrogen Dioxide (NO2)</th><th>Nitrogen Oxide (NOx)</th><th>Nitric Oxide(NO)</th><th>Location</th><th>Date</th></tr>
+        <table style="text-align: center ;"> <caption> <b> The below table shows hourly Nitrogen Dioxide(NO2) records that are >= 100µg/m3.<i> Note: UK Goverment hourly limit is 200 µg/m3.</i></b></caption><body>
+          <tr style="background-color:MediumSeaGreen;"><th style="padding: 1%;">Nitrogen Dioxide (NO2)</th><th style="padding: 1%;">Nitrogen Oxide (NOx)</th><th style="padding: 1%;">Nitric Oxide(NO)</th><th style="padding: 1%;">Location</th><th style="padding: 1%;">Date</th></tr>
           <% for (var i=0; i<rows.length; i++) { %>
           <tr>
-            <td><%= rows[i].NO2 %></td>
-            <td><%= rows[i].NOx %></td>
-            <td><%= rows[i].NO %></td>
-            <td><%= rows[i].Location %></td>
-            <td><%= rows[i][`Date Time`] %></td>
+            <td style="padding: 0.5%;"><%= rows[i].NO2 %></td>
+            <td style="padding: 0.5%;"><%= rows[i].NOx %></td>
+            <td style="padding: 0.5%;"><%= rows[i].NO %></td>
+            <td style="padding: 0.5%;"><%= rows[i].Location %></td>
+            <td style="padding: 0.5%;"><%= rows[i][`Date Time`] %></td>
           </tr>
           <% } %>
       </body></table>

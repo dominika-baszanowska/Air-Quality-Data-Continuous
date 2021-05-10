@@ -24,7 +24,7 @@
 | **Description** | As my job being advising the Bristol Council on air pollution I want to understand what effect had less traffic as conscequence of the national lockdown on air pollution. To do this I want to be able to see all the records on air pollution from March.|
 | **Actors** | Healthy Citizens.|
 | **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul>|
-| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *See all pollution records from March* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|
+| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *See all pollution records from March* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header.</li><li>Show the results to the user.</li></ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** | Measurements from specific locations may not be available. |
@@ -35,7 +35,7 @@
 | **Description** | As a long asthma sufferer I would like to know which areas are most polluted, as it allows me to plan future journeys whilst preventing my condition to deteriorate. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are higher or equal to 100µg/m3 , and matched against their location and time.  |
 | **Actors** | Healthy Citizens. |
 | **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul> |
-| **Steps** | <ol><li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with high pollution levels* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>|
+| **Steps** | <ol><li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with high pollution levels* on the nav section .</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header.</li><li>Show the results to the user.</li></ol>|
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |
@@ -46,7 +46,7 @@
 | **Description** | As a person exercising outdoors, I want to be able to find the less polluted locations, and times to improve my performance. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are lower or equal to 8.0µg/m3 , and matched against their location and time.  |
 | **Actors** | Healthy Citizens. |
 | **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul> |
-| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with low pollution levels* on the nav section</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header</li><li>Show the results to the user.</li></ol>  |
+| **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with low pollution levels* on the nav section</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header.</li><li>Show the results to the user.</li></ol>  |
 | **Variations** |  |
 | **Non-functional** |  |
 | **Issues** |  |

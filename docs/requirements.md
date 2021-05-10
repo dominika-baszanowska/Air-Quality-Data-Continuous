@@ -4,19 +4,18 @@
 
 ### Actors
 
-**Healthy Citizen**
-1. People exercising outdoors, such as runners, cyclist, walkers etc. 
-2. People living within Bristol, interested in air quality.
-3. Environment and health concious people.
-4. People suffering from certain diseases where fresh air is important for them e.g. asthma.
+**Healthy Citizen:**
+1. People exercising outdoors, such as runners, cyclists, or walkers. 
+2. People with health conditions that rely on quality air to live a healthy life, such as those suffering from asthma.
+3. Council officials who monitor air pollution levels to prevent harmful spikes.
 
 **Maintainer** who takes care of the app, fixes problems and develops new features. 
 
 ### User stories
 
-1. As a runner I want to find the less polluted locations, so that I can breathe quality air.
-2. As a granpa I want to see the pollution levels in certain areas so that I can plan a walk with my grandsons ahead. 
-3. TBD As a person with asthma I want to find a place in Bristol where there is little pollution so that I can enjoy a walk with my friends.
+1. As a Bristol health official I want to see the pollution records from March, so that I can study the effects of the national lockdown on air pollution. 
+2. As a runner I want to find the less polluted locations in Bristol, so that I can breathe quality air while doing exercise outdoors. 
+3. As a person with asthma I want to find the most polluted locations in Bristol, so that I can prevent those areas, and my life is not in danger while walking outdoors.
 
 ### Use Cases
 
@@ -31,7 +30,7 @@
 | **Issues** | Some specific location data may not be available. |
 
 
-| UC2        | See the most polluted areas | 
+| UC2        | Find locations with high pollution levels | 
 | -------------------------------------- | ------------------- |
 | **Description** | As a person exercising outdoors I would like to know which areas are most polluted, as it allows me to plan future journeys whilst being health conscious. |
 | **Actors** | Healthy Citizens. |
@@ -42,7 +41,7 @@
 | **Issues** |  |
 
 
-| UC3       | Find less polluted area| 
+| UC3       | Find locations with low pollution levels| 
 | -------------------------------------- | ------------------- |
 | **Description** | As a person exercising outdoor and interested in air quality I want to be able to find the less polluted area. |
 | **Actors** | Healthy Citizens. |

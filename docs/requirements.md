@@ -52,7 +52,7 @@
 | **Issues** |  |
 ### Use-Case diagram
 
-![Insert your Use-Case-Diagram Here](images/UseCaseDiagram.png)
+![Insert your Use-Case-Diagram Here](images/UseCaseDiagram1.png)
 
 ## Software Requirements Specification
 

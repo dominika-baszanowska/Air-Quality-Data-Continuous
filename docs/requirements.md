@@ -53,6 +53,8 @@
 ### Use-Case diagram
 
 ![Insert your Use-Case-Diagram Here](images/UseCaseDiagram1.png)
+<figcaption>Caption goes here</figcaption>
+
 
 ## Software Requirements Specification
 

@@ -60,7 +60,7 @@ C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
 ✖ 20 problems (20 errors, 0 warnings)
 
 ```
-<figcaption><em>Output 2:</em>The above output is carried out for Software Quality Assurance (SQA).</figcaption>
+<figcaption><em>Output 2:</em> The above output is carried out for Software Quality Assurance (SQA).</figcaption>
 
 ## Software Architecture
 

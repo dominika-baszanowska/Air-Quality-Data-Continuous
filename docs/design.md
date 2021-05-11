@@ -10,14 +10,14 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC1_SequenceDiagram.png)
 
-### Scenario UC2&3
+### Scenario UC2
 A granpa is taking his grandsons out for a walk, but he knows it is peak hour so he wants to compare the areas with higher concentration of pollution, against areas with lower levels of pollution, this will enable him to avoid certain areas with higher levels of pollution. 
 
 ### Sequence Diagram UC2
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC2_SequenceDiagram.png)
 
-### Scenario UC2&3
+### Scenario UC3
 A granpa is taking his grandsons out for a walk, but he knows it is peak hour so he wants to compare the areas with higher concentration of pollution, against areas with lower levels of pollution, this will enable him to avoid certain areas with higher levels of pollution. 
 
 ### Sequence Diagram UC3

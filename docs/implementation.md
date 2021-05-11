@@ -33,6 +33,7 @@ directory: 6 file: 4
 | **Conf** | 0 warnings| 1 Error |
 | **Main** | 0 warnings| 16 Errors |
 
+```
 C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
     1:17  error  'require' is not defined            no-undef
     2:15  error  'require' is not defined            no-undef
@@ -56,6 +57,8 @@ C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
   138:1   error  'exports' is not defined            no-undef
 
 ✖ 20 problems (20 errors, 0 warnings)
+
+```
 
 
 ## Software Architecture

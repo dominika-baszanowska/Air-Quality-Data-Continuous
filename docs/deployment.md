@@ -2,9 +2,11 @@
 
 ## Release Notes
 
-**System Version:** The current version of the system is  v1.0-alpha.
+### System Version:
 
-**Dependencies:**
+The current version of the system is  v1.0-alpha.
+
+### Dependencies:
 ```
   "dependencies": {
     "ejs": "3.1.6",
@@ -19,8 +21,7 @@
   ```
   <figcaption><em>Output 3:</em> The above output shows the dependencies installed.</figcaption>
  
- 
-**Software Tools:**
+### Software Tools:
 
 * VSCode
 * MySQL Workbench
@@ -30,11 +31,11 @@
 * Wireframes (Whimsical)
 * Open Data Bristol
 
-**URL of Deployed System:** http://localhost:8080/index.html
-TODO: Describe the current version of the system (with version number. Include system dependencies ands software tools used.
-Are there any known issues? Provide the URL of the deployed system. 
+### URL of Deployed System:
 
-**Deployment Diagram:**
+http://localhost:8080/index.html
+
+### Deployment Diagram:
 
 ![Insert Deployment diagram here](images/deployment.png)
 <figcaption><em>Figure 8: </em>The above image represents a Deployment Diagram.</figcaption>

@@ -66,9 +66,10 @@
 | **FR4** | The system could have an audio that helps the user navigate our website. | UC1 |
 | **FR5** | The system must get Nitrogen Dioxide (NO2) pollution records from the database that are higher or equal to 100µg/m3   | UC2 |
 | **FR6** | The system should get the highest pollution records from the locations the user selects. | UC2 |
-| **FR7** | The system must get Nitrogen Dioxide (NO2) pollution records from the database that are lower or equal to 8µg/m3   | UC3 |
-| **FR8** | The system should get the lowest pollution records from the locations the user selects. | UC3 |
-| **FR9** | The system won't have a GPS fucntion that guides people to the less polluted areas. | UC3 |
+| **FR7** | The system won't have a date/time picker to narrow down the search of the most polluted locations. | UC2 |
+| **FR8** | The system must get Nitrogen Dioxide (NO2) pollution records from the database that are lower or equal to 8µg/m3   | UC3 |
+| **FR9** | The system should get the lowest pollution records from the locations the user selects. | UC3 |
+| **FR10** | The system won't have a GPS function that guides people to the less polluted areas. | UC3 |
 
 
 

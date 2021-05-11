@@ -17,11 +17,22 @@
     "testcafe": "^1.14.0"
   },
   ```
+**Software Tools:**
+
+* VSCode
+* MySQL Workbench
+* Node.js
+* GitHub
+* Astah
+* Wireframes (Whimsical)
+* Open Data Bristol
 
 **URL of Deployed System:** http://localhost:8080/index.html
 TODO: Describe the current version of the system (with version number. Include system dependencies ands software tools used.
 Are there any known issues? Provide the URL of the deployed system. 
-Describe the deployment of software components to hardware nodes using a UML Deployment diagram.
+
+**Deployment Diagram:**
+
 
 ![Insert Deployment diagram here](images/deployment.png)
 

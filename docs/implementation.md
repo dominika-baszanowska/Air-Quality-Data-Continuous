@@ -11,6 +11,8 @@
 
 ## Project Structure
 
+### Tree-cli
+
 ```
 ├── conf.json // JavaScript Object Notation - Used for configuration data
 ├── dbconnect // It enables a connection to MySQL
@@ -23,7 +25,7 @@
 ├── test
 └── views
 ```
-
+<figcaption><em>Output 1: </em>The above output is an outline of our project folder.</figcaption>
 
 ```
 C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
@@ -51,6 +53,8 @@ C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
 ✖ 20 problems (20 errors, 0 warnings)
 
 ```
+<figcaption><em>Output 1:</em>The above output is carried out for Software Quality Assurance (SQA) .</figcaption>
+
 ESLint has detected, 0 warnings and 20 errors from three different categories:
 * **no-undef** - Which translates to a variable not being declared.
 * **no-unused-vars** - This errors come as a result of having variables in the code that are declared but not being used. These variables can take up space and can lead to confusion by other stakeholders. 

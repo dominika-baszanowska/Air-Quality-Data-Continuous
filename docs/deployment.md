@@ -33,8 +33,8 @@ Are there any known issues? Provide the URL of the deployed system.
 
 **Deployment Diagram:**
 
-
 ![Insert Deployment diagram here](images/deployment.png)
+<figcaption><em>Figure 8: </em>The above image represents a Deployment Diagram.</figcaption>
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.

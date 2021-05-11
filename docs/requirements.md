@@ -60,11 +60,17 @@
   
 |  ***Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
-| **FR1** | The system could get user geo-location. | UC1 |
-| **FR2** | The system shall get the less polluted areas from database. | UC2 |
-| **FR3** | The system should allow users to plan ahead a less polluted route.  | UC2 |
-| **FR4** | The system won't act as a GPS to guide people to the less polluted areas. | UC3 |
-| **tbd** | tbd | tbd |
+| **FR1** | The system must get all pollution records from the database. | UC1 |
+| **FR2** | The system should get all pollution records from the locations user selects. | UC1 |
+| **FR3** | The system could have a map that pintpoints total records collected over the years. | UC1 |
+| **FR4** | The system could have an audio that helps the user navigate our website. | UC1 |
+| **FR5** | The system must get Nitrogen Dioxide (NO2) pollution records from the database that are higher or equal to 100µg/m3   | UC2 |
+| **FR6** | The system should get the highest pollution records from the locations the user selects. | UC2 |
+| **FR7** | The system must get Nitrogen Dioxide (NO2) pollution records from the database that are lower or equal to 8µg/m3   | UC3 |
+| **FR8** | The system should get the lowest pollution records from the locations the user selects. | UC3 |
+| **FR9** | The system won't have a GPS fucntion that guides people to the less polluted areas. | UC3 |
+
+
 
 ### Non-Functional Requirements
 

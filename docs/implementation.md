@@ -62,3 +62,4 @@ ESLint has detected, 0 warnings and 20 errors from three different categories:
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
 ![Insert your component Diagram here](images/component.png)
+<figcaption><em>Figure 7: </em>The above image represents the Component Diagram for our project.</figcaption>

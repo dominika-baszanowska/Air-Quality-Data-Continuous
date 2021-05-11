@@ -24,14 +24,6 @@
 └── views
 ```
 
-directory: 6 file: 4
-
-
-| **Module**        | **Warnings** | **Error** |
-| -------------------------------------- | ------------------- | ------------------- |
-| **Packaje.json** | 0 warnings| 1 Error |
-| **Conf** | 0 warnings| 1 Error |
-| **Main** | 0 warnings| 16 Errors |
 
 ```
 C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js

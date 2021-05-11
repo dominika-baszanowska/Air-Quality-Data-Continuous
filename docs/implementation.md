@@ -33,6 +33,30 @@ directory: 6 file: 4
 | **Conf** | 0 warnings| 1 Error |
 | **Main** | 0 warnings| 16 Errors |
 
+C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
+    1:17  error  'require' is not defined            no-undef
+    2:15  error  'require' is not defined            no-undef
+    3:14  error  'require' is not defined            no-undef
+    4:1   error  'process' is not defined            no-undef
+    4:22  error  'process' is not defined            no-undef
+   25:55  error  'fields' is defined but never used  no-unused-vars
+   34:81  error  'fields' is defined but never used  no-unused-vars
+   54:82  error  'fields' is defined but never used  no-unused-vars
+   66:55  error  'fields' is defined but never used  no-unused-vars
+   75:81  error  'fields' is defined but never used  no-unused-vars
+   88:55  error  'fields' is defined but never used  no-unused-vars
+   97:81  error  'fields' is defined but never used  no-unused-vars
+  111:46  error  'process' is not defined            no-undef
+  126:4   error  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  130:5   error  'process' is not defined            no-undef
+  131:22  error  'process' is not defined            no-undef
+  132:46  error  'process' is not defined            no-undef
+  136:1   error  'exports' is not defined            no-undef
+  137:1   error  'exports' is not defined            no-undef
+  138:1   error  'exports' is not defined            no-undef
+
+✖ 20 problems (20 errors, 0 warnings)
+
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?

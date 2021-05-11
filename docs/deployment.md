@@ -17,7 +17,8 @@
     "testcafe": "^1.14.0"
   },
   ```
- <figcaption><em>Output 3:</em> The above output shows the dependencies installed.</figcaption>
+  <figcaption><em>Output 3:</em> The above output shows the dependencies installed.</figcaption>
+ 
  
 **Software Tools:**
 

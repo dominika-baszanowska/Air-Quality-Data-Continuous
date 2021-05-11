@@ -43,7 +43,7 @@
 
 | UC3       | Find locations with low pollution levels| 
 | -------------------------------------- | ------------------- |
-| **Description** | As a person exercising outdoors, I want to be able to find the less polluted locations, and times to improve my performance. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are lower or equal to 8.0µg/m3 , and matched against their location and time.  |
+| **Description** | As a person exercising outdoors, I want to be able to find the less polluted locations, and variations of pollution at different times of the day to improve my performance. To do this I want to see a list that shows me Nitrogen Dioxide (NO2) pollution records that are lower or equal to 8.0µg/m3 , and matched against their location and time.  |
 | **Actors** | Healthy Citizens. |
 | **Assumptions** | <ul> Assume user understands how pollution particles are measured.</ul><ul> Assume that the user is located within Bristol. </ul> |
 | **Steps** | <ol> <li> *Open Historic Pollution Data*.</li><li>Click on *Find locations with low pollution levels* on the nav section</li><li>Show the results to the user.</li><li>To narrow down the search send location string by clicking location buttons on the header.</li><li>Show the results to the user.</li></ol>  |

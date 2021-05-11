@@ -2,7 +2,7 @@
 
 ## Test Plan
 
-### Test Runs
+### Test Runs:
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |

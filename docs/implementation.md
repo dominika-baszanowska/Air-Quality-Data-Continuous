@@ -27,6 +27,8 @@
 ```
 <figcaption><em>Output 1: </em>The above output is an outline of our project folder.</figcaption>
 
+### ESLint
+
 ```
 C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
     1:17  error  'require' is not defined            no-undef
@@ -53,14 +55,12 @@ C:\Users\hoyos\Documents\GitHub\Air-Quality-Data-Continuous\main.js
 ✖ 20 problems (20 errors, 0 warnings)
 
 ```
-<figcaption><em>Output 1:</em>The above output is carried out for Software Quality Assurance (SQA) .</figcaption>
+<figcaption><em>Output 1:</em>The above output is carried out for Software Quality Assurance (SQA).</figcaption>
 
 ESLint has detected, 0 warnings and 20 errors from three different categories:
 * **no-undef** - Which translates to a variable not being declared.
 * **no-unused-vars** - This errors come as a result of having variables in the code that are declared but not being used. These variables can take up space and can lead to confusion by other stakeholders. 
 * **no-mixed-spaces-and-tabs** - This error is due to a line of code being indented with both tabs and spaces. By convention it is required either tabs or spaces for indentation. 
-
-
 
 ## Software Architecture
 

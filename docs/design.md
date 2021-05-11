@@ -9,6 +9,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 ### Sequence Diagram UC1
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC1_SequenceDiagram.png)
+<figcaption><em>Figure 3: </em>TBD</figcaption>
 
 ### Scenario UC2
 
@@ -17,6 +18,7 @@ A person who has asthma has been advised to check the pollution levels at differ
 ### Sequence Diagram UC2
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC2_SequenceDiagram.png)
+<figcaption><em>Figure 4: </em>TBD</figcaption>
 
 ### Scenario UC3
 A runner is preparing for a marathon, so he knows he needs to be in optimal condition to perform against other participants, as such he needs to know what locations in Bristol have low pollution levels, and the variation of pollutions at different times of the day so that he can plan his training ahead. To achieve this goal he stopped by the *Historic Pollution Data* website which is kept updated by the *maintainer* , and allows him to select a table with the name of *Find locations with low pollution levels*, once he clicks on this table he will be able to narrow down his search by *selecting* the location that is closer to him to know if Nitrogen Dioxide (NO2) pollution levels in that location are lower or equal to 8µg/m3. By following these steps, he will be able to maximise his training, and be better prepared for the marathon. 
@@ -24,6 +26,7 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 ### Sequence Diagram UC3
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC3_SequenceDiagram.png)
+<figcaption><em>Figure 5: </em>TBD</figcaption>
 
 ## User Interface design
 

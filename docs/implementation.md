@@ -59,7 +59,12 @@ ESLint has detected, 0 warnings and 20 errors from three different categories:
 
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+
+# 3-tier Architecture
+The arhitecture style being used for the development of this project is the so called 3-tier Architecture because our project is composed of:
+<ol>1. 2. 3.  </ol> 
+TODO: Describe the major components of your architecture. Are any particular arc
+hitectural styles being used?
 
 ![Insert your component Diagram here](images/component.png)
 <figcaption><em>Figure 7: </em>The above image represents the Component Diagram for our project.</figcaption>

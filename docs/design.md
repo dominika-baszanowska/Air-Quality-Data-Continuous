@@ -26,6 +26,5 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC3_SequenceDiagram.png)
 
 ## User Interface design
-TODO: Specify and develop a user interface mockup using an HTML wireframe.
 
 ![Insert your wireframe screenshots for each use-case here](images/wireframe.png)

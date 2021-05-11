@@ -62,7 +62,7 @@ ESLint has detected, 0 warnings and 20 errors from three different categories:
 
 # 3-tier Architecture
 The arhitecture style being used for the development of this project is the so called 3-tier Architecture because our project is composed of:
-<ol>1. 2. 3.  </ol> 
+<ol> <li>1.</li><li> 2.</li> <li>3.</li>   </ol> 
 TODO: Describe the major components of your architecture. Are any particular arc
 hitectural styles being used?
 

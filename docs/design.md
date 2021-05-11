@@ -31,3 +31,4 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 ## User Interface design
 
 ![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
+<figcaption><em>Figure 6: </em>Wireframe design of our project</figcaption>

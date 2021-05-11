@@ -37,3 +37,4 @@ Below is a detailed list of every entity that applies to our project scope:
 * **Similar Apps** will be researched to make sure we provide added value, and not the same features already offered by the common pollution checkers.
 
 ![Insert your Context Diagram Here](images/BPC.jpg)
+<figcaption><em>Figure 1: </em>The above image represents a Context Diagram, it represents external components that can impact the project, or can be affected by it.</figcaption>

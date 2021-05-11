@@ -62,7 +62,7 @@ ESLint has detected, 0 warnings and 20 errors from three different categories:
 
 ### 3-tier Architecture
 The architecture style being used for the development of this project is the so called 3-tier Architecture because our project is composed of the next three tiers:
-<ol><li><b>Presentation Tier</b> - It provides the user interface, on our project it is our HTML website itself where users can interact with the different UC's.</li><li><b> Business Tier</b> - It deals with user inputs, it queries the database as to return a result from the query</li><li> <b>Data tier:</b> - It provides our HTML project with the necessary data, it runs on MySQL </li></ol> 
+<ol><li><b>Presentation Tier</b> - It provides the user interface, on our project it is our HTML website itself where users can interact with the different UC's.</li><li><b> Business Tier</b> - It deals with user inputs, it queries the database as to return a result from the query</li><li> <b>Data tier</b> - It provides our HTML project with the necessary data, it runs on MySQL </li></ol> 
 TODO: Describe the major components of your architecture. Are any particular arc
 hitectural styles being used?
 

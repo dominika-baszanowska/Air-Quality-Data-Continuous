@@ -77,10 +77,11 @@
 
 |  ***Non-Functional requirements*** |   ***Definition*** |    ***Use-Case*** | 
 | -------------------------------------- | ------------------- | ------------------- |
-| **NFR1** | The app should work on iOS (Portability) | UC1 |
-| **NFR2** | Less polluted areas should not be further than 1 mile from person looking to exercise outdoors (usability) | UC2 |
-| **NFR4** | It should display up to 5 nearest less polluted areas on one page (usability) | UC3 |
-| **NFR5** | It could make suggestions wheather the area is a good place to exercise or not (usability) | UC1, UC2, UC3 |
-| **NFR6** | It must show current pollution levels in the location provided (reliability) | UC1, UC2, UC3 |
-
-
+| **NFR1** | Accessibility - The font size shall be big enough for users to easily read through rows of data. | UC1 |
+| **NFR2** | Data integrity - The data shall be maintained and shall be accurate and consistent. | UC1 |
+| **NFR3** | Documentation - The project and the use-case-specific data shall be accompanied with its corresponding documentation that explain the attributes of the system | UC1 | **NFR4** | Data integrity - The data shall be maintained, and shall be accurate and consistent. | UC1 |
+| **NFR5** | Extensibility - The use-case-specific data and environment shall be extended with new functionalities in the future to improve the user's experience. | UC2 |
+| **NFR6** | Operability - The use-case-specific data, and the whole system shall be reliable, and date kept in a safe condition. | UC2 |
+| **NFR7** | Platform compatibility - The use-case-specific data, and the whole system shall be compatible with different web browsers such as Safari, Chrome, Firefox, or Edge. | UC1 |
+| **NFR8** | Reusability - The use-case-specific data, and the whole system shall be reusable as to replicate similar functionalities in upcoming versions. | UC3 |
+| **NFR9** | Robustness - In the event of an expected error in the handling of the use-case-specific data, or the whole system, it shall output to the user the most likely cause of error so that it can be dealt effectively | UC3 |

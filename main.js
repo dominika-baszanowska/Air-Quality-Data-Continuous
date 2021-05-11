@@ -1,6 +1,7 @@
 const express = require("express");
 const mysql = require("mysql");
 const conf = require(`./conf.json`);
+console.log(process.env.NODE_ENV);
 process.env.NODE_ENV=process.env.NODE_ENV || `dev`;
 
 const QUERY1 = "SELECT * FROM `air-quality-data-continuous (2)`";

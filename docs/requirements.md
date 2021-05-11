@@ -53,7 +53,7 @@
 ### Use-Case diagram
 
 ![Insert your Use-Case-Diagram Here](images/UseCaseDiagram1.png)
-<figcaption>*Figure x:* The above image represents the UseCase Diagram where an association between each use case and actor is created within a system</figcaption>
+<figcaption><i>Figure 2</i>The above image represents a UseCase Diagram where an association between each use case and actor is created within a system. This process is known as Use Case Modeling</figcaption>
 
 
 ## Software Requirements Specification

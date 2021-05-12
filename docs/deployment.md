@@ -52,13 +52,11 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ![Insert screenshots here](images/capture.png)
 
-![Insert screenshots here](images/uc1_image1.png)
-
-<img src="https://uweacuk-my.sharepoint.com/:i:/g/personal/john2_hoyos_live_uwe_ac_uk/ESGaR7XgJJ9Fp-fLB8f2uLkBp0l2ASJWXZGnkkupyKjsYQ?e=87IOgT" style="width:128px;height:128px;">
+![Insert screenshots here](images/uc1image1.png)
 
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 
-![Insert screenshots here](images/uc1_image2.png)
+![Insert screenshots here](images/uc1image2.png)
 <figcaption><em>Figure 10: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>
 
 ## UC2: Find locations with high pollution levels:
@@ -70,10 +68,10 @@ A person who has asthma has been advised to check the pollution levels at differ
 
 ### Screenshots:
 
-![Insert screenshots here](images/uc2_image1.png)
+![Insert screenshots here](images/uc2image1.png)
 <figcaption><em>Figure 11: </em>The user clicks on <i>Find locations with high pollution levels.</i></figcaption>
 
-![Insert screenshots here](images/uc2_image2.png)
+![Insert screenshots here](images/uc2image2.png)
 <figcaption><em>Figure 12: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>
 
 ## UC3: Find locations with low pollution levels:
@@ -84,8 +82,8 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 
 ### Screenshots:
 
-![Insert screenshots here](images/uc3_image1.png)
+![Insert screenshots here](images/uc3image1.png)
 <figcaption><em>Figure 13: </em>The user clicks on <i>Find locations with low pollution levels.</i></figcaption>
 
-![Insert screenshots here](images/uc3_image2.png)
+![Insert screenshots here](images/uc3image2.png)
 <figcaption><em>Figure 14: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>

@@ -1,5 +1,5 @@
 # Deployment
-![Insert screenshots here](images/uc1_image1.png)
+
 ## Release Notes
 
 ### System Version:

@@ -42,6 +42,12 @@ http://localhost:8080/index.html
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+## UC1: See all pollution records from March:
+
+## UC2: Find locations with high pollution levels:
+
+## UC3: Find locations with low pollution levels:
+
 
 ![Insert screenshots here](images/screenshot.png)
 TODO: Repeat as necessary

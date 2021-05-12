@@ -50,7 +50,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ### Screenshots:
 
-![Insert screenshots here](images/uc1_image1.png)
+![Insert screenshots here](images/capture.png)
 
 <img src="/deployment.png" style="width:128px;height:128px;">
 

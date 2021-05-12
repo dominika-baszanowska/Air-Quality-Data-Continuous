@@ -10,5 +10,5 @@
 | UC2 | FR6 | e2e | Pass |
 | UC3 | FR9 | e2e | Pass |
 
-![Insert screenshots here](images/uc1_image2.png)
+
 

@@ -54,7 +54,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 
 ![Insert screenshots here](images/uc1image2.png)
-<figcaption><em>Figure 10: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>
+<figcaption><em>Figure 10: </em>The user clicks on <i>Temple Way,</i> to narrow down the search.</figcaption>
 
 ## UC2: Find locations with high pollution levels:
 
@@ -68,7 +68,7 @@ A person who has asthma has been advised to check the pollution levels at differ
 <figcaption><em>Figure 11: </em>The user clicks on <i>Find locations with high pollution levels.</i></figcaption>
 
 ![Insert screenshots here](images/uc2image2.png)
-<figcaption><em>Figure 12: </em>The user clicks on <i>Temple Way.</i> to narrow down the search.</figcaption>
+<figcaption><em>Figure 12: </em>The user clicks on <i>Temple Way,</i> to narrow down the search.</figcaption>
 
 ## UC3: Find locations with low pollution levels:
 

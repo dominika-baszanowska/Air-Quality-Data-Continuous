@@ -51,6 +51,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 ![Insert screenshots here](images/uc1image1.png)
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 
+
 Once he completed the above step, he will then narrow down his search by *selecting* his desired location e.g., Temple Way; as seen below. This request will be rendered by the *Historic Pollution Data Server* which will send a query to the *Database* so that a result is provided to the original request made by the official.
 
 ![Insert screenshots here](images/uc1image2.png)
@@ -65,6 +66,7 @@ A person who has asthma has been advised to check the pollution levels at differ
 ![Insert screenshots here](images/uc2image1.png)
 <figcaption><em>Figure 11: </em>The user clicks on <i>Find locations with high pollution levels.</i></figcaption>
 
+
 Once she clicks on the above button, she will be able to narrow down her search by *selecting* (as seen in the screenshot below) the location she usually walks by with her friends to make sure Nitrogen Dioxide (NO2) pollution levels in that location are not higher or equal to 100µg/m3. By following these steps, she will have peace of mind that her condition will not ruin a walk with her friends.
 
 ![Insert screenshots here](images/uc2image2.png)
@@ -78,6 +80,7 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 
 ![Insert screenshots here](images/uc3image1.png)
 <figcaption><em>Figure 13: </em>The user clicks on <i>Find locations with low pollution levels.</i></figcaption>
+
 
 Once he clicks on this table he will be able to narrow down his search by *selecting* (see screenshot below) the location that is closer to him to know if Nitrogen Dioxide (NO2) pollution levels in that location are lower or equal to 8µg/m3. By following these steps, he will be able to maximise his training, and be better prepared for the marathon. 
 

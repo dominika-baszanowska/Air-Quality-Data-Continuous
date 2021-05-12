@@ -50,10 +50,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ### Screenshots:
 
-![Insert screenshots here](images/capture.png)
-
 ![Insert screenshots here](images/uc1image1.png)
-
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 
 ![Insert screenshots here](images/uc1image2.png)
@@ -64,7 +61,6 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 ### Scenario:
 
 A person who has asthma has been advised to check the pollution levels at different days, and times of the day around the locations she usually passes by when walking with her friends. She was advised to visit the *Historic Pollution Data* website, which is kept updated by the *maintainer*, on it she will be able to select a table with the name of *Find locations with high pollution levels* , once she clicks on this table she will be able to narrow down her search by *selecting* the location she usually walks by with her friends to make sure Nitrogen Dioxide (NO2) pollution levels in that location are not higher or equal to 100µg/m3. By following these steps, she will have peace of mind that her condition will not ruin a walk with her friends. 
-
 
 ### Screenshots:
 
@@ -86,4 +82,4 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 <figcaption><em>Figure 13: </em>The user clicks on <i>Find locations with low pollution levels.</i></figcaption>
 
 ![Insert screenshots here](images/uc3image2.png)
-<figcaption><em>Figure 14: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>
+<figcaption><em>Figure 14: </em>The user clicks on <i>Temple Way</i> to narrow down the search</figcaption>

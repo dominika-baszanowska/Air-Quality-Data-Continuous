@@ -52,7 +52,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ![Insert screenshots here](images/capture.png)
 
-![Insert screenshots here](images/uc1_image1.png)
+![Insert screenshots here](images/uc1image1.png)
 
 <img src="https://uweacuk-my.sharepoint.com/:i:/g/personal/john2_hoyos_live_uwe_ac_uk/ESGaR7XgJJ9Fp-fLB8f2uLkBp0l2ASJWXZGnkkupyKjsYQ?e=87IOgT" style="width:128px;height:128px;">
 

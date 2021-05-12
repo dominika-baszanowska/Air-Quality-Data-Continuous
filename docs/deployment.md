@@ -56,8 +56,6 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 ![Insert screenshots here](images/uc1_image2.png)
 <figcaption><em>Figure 10: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>
 
-![Insert Deployment diagram here](images/deployment.png)
-
 ## UC2: Find locations with high pollution levels:
 
 ### Scenario:

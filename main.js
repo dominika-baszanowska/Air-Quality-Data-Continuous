@@ -5,10 +5,16 @@ console.log(process.env.NODE_ENV);
 process.env.NODE_ENV=process.env.NODE_ENV || `dev`;
 
 const QUERY1 = "SELECT * FROM `air-quality-data-continuous (2)`";
+
+//UC1- The below query allows users to see all pollution records, as well as filtering by location.
 const QUERY2 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? ";
 const QUERY3 = "SELECT * FROM `air-quality-data-continuous (2)` where location Like ? ";
+
+//UC2 - The below query allows users to see NO2 pollution records that are >= 100.0, as well as filtering by location.
 const QUERY4 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 >= 100.0 ";
 const QUERY5 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? AND NO2 >= 100.0 ";
+
+//UC3 - The below query allows users to see NO2 pollution records that are <= 8.0, as well as filtering by location.
 const QUERY6 = "SELECT * FROM `air-quality-data-continuous (2)` where NO2 <= 8.0 "
 const QUERY7 = "SELECT * FROM `air-quality-data-continuous (2)` where location = ? AND NO2 <= 8.0 ";
 
@@ -105,10 +111,6 @@ app.get('/lower.html' , function(request, response){
     }
 });
 
-//app.listen(conf [process.env.NODE_ENV] .port); 
-//console.log("lISTENING ON PORT %S", conf[process.env.NODE_ENV] .port);
-
-//var connection = mysql.createConnection(conf.db);
 var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
 connection.connect(function (err) {
     if (err) {
@@ -117,16 +119,6 @@ connection.connect(function (err) {
         console.log("Connected as: ", connection.threadId);
     }
 });
-
-
-//connection.connect(function(err){
-	//if (err) {
-        //response.status(500);
-        //response.send(err);
-    //} else {
-    	//console.log("Connected as: ", connection.threadId);    
-	//}
-//});
 
 if (process.env.NODE_ENV!=`test`) {
     app.listen(conf [process.env.NODE_ENV] .port);
@@ -137,5 +129,3 @@ if (process.env.NODE_ENV!=`test`) {
 exports.app = app;
 exports.connection = connection;
 exports.splash = splash;
-
-// console.log("Server running on http://localhost:8080", conf[process.env.NODE_ENV] .port);

@@ -46,12 +46,12 @@ http://localhost:8080/index.html
 
 ### Scenario:
 
-A council official, which we have classified within the *Healthy Citizen actor*, has been requested to analyse how the national lockdown impacted the emission of particles such as Nitrogen Dioxide (NO2) around certain locations in Bristol during the month of March. To complete this task, the official will visit the *Historic Pollution Data* website which is kept updated by the *maintainer*. On this website the user will be able to select a table with the name of *See pollution records from March*, he will then narrow down his search by *selecting* his desired location e.g., Temple Way. This request will be rendered by the *Historic Pollution Data Server* which will send a query to the *Database* so that a result is provided to the original request made by the official. 
-
-### Screenshots:
+A council official, which we have classified within the *Healthy Citizen actor*, has been requested to analyse how the national lockdown impacted the emission of particles such as Nitrogen Dioxide (NO2) around certain locations in Bristol during the month of March. To complete this task, the official will visit the *Historic Pollution Data* website which is kept updated by the *maintainer*. On this website the user will be able to select a table with the name of *See pollution records from March* as seen in the screenshot below.  
 
 ![Insert screenshots here](images/uc1image1.png)
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
+
+Once he completed the above, he will then narrow down his search by *selecting* his desired location e.g., Temple Way; as seen below. This request will be rendered by the *Historic Pollution Data Server* which will send a query to the *Database* so that a result is provided to the original request made by the official.
 
 ![Insert screenshots here](images/uc1image2.png)
 <figcaption><em>Figure 10: </em>The user clicks on <i>Temple Way,</i> to narrow down the search.</figcaption>
@@ -60,12 +60,12 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ### Scenario:
 
-A person who has asthma has been advised to check the pollution levels at different days, and times of the day around the locations she usually passes by when walking with her friends. She was advised to visit the *Historic Pollution Data* website, which is kept updated by the *maintainer*, on it she will be able to select a table with the name of *Find locations with high pollution levels* , once she clicks on this table she will be able to narrow down her search by *selecting* the location she usually walks by with her friends to make sure Nitrogen Dioxide (NO2) pollution levels in that location are not higher or equal to 100µg/m3. By following these steps, she will have peace of mind that her condition will not ruin a walk with her friends. 
-
-### Screenshots:
+A person who has asthma has been advised to check the pollution levels at different days, and times of the day around the locations she usually passes by when walking with her friends. She was advised to visit the *Historic Pollution Data* website, which is kept updated by the *maintainer*, on it she will be able to select a table with the name of *Find locations with high pollution levels*, as seen in the screenshot below.   
 
 ![Insert screenshots here](images/uc2image1.png)
 <figcaption><em>Figure 11: </em>The user clicks on <i>Find locations with high pollution levels.</i></figcaption>
+
+Once she clicks on the above button, she will be able to narrow down her search by *selecting* (as seen in the screenshot below) the location she usually walks by with her friends to make sure Nitrogen Dioxide (NO2) pollution levels in that location are not higher or equal to 100µg/m3. By following these steps, she will have peace of mind that her condition will not ruin a walk with her friends.
 
 ![Insert screenshots here](images/uc2image2.png)
 <figcaption><em>Figure 12: </em>The user clicks on <i>Temple Way,</i> to narrow down the search.</figcaption>
@@ -74,12 +74,12 @@ A person who has asthma has been advised to check the pollution levels at differ
 
 ### Scenario:
 
-A runner is preparing for a marathon, so he knows he needs to be in optimal condition to perform against other participants, as such he needs to know what locations in Bristol have low pollution levels, and the variation of pollutions at different times of the day so that he can plan his training ahead. To achieve this goal he stopped by the *Historic Pollution Data* website which is kept updated by the *maintainer* and allows him to select a table with the name of *Find locations with low pollution levels*. Once he clicks on this table he will be able to narrow down his search by *selecting* the location that is closer to him to know if Nitrogen Dioxide (NO2) pollution levels in that location are lower or equal to 8µg/m3. By following these steps, he will be able to maximise his training, and be better prepared for the marathon. 
-
-### Screenshots:
+A runner is preparing for a marathon, so he knows he needs to be in optimal condition to perform against other participants, as such he needs to know what locations in Bristol have low pollution levels, and the variation of pollutions at different times of the day so that he can plan his training ahead. To achieve this goal he stopped by the *Historic Pollution Data* website which is kept updated by the *maintainer* and allows him to select a table with the name of *Find locations with low pollution levels*, as seen in the screenshot below.
 
 ![Insert screenshots here](images/uc3image1.png)
 <figcaption><em>Figure 13: </em>The user clicks on <i>Find locations with low pollution levels.</i></figcaption>
+
+Once he clicks on this table he will be able to narrow down his search by *selecting* (see screenshot below) the location that is closer to him to know if Nitrogen Dioxide (NO2) pollution levels in that location are lower or equal to 8µg/m3. By following these steps, he will be able to maximise his training, and be better prepared for the marathon. 
 
 ![Insert screenshots here](images/uc3image2.png)
 <figcaption><em>Figure 14: </em>The user clicks on <i>Temple Way</i> to narrow down the search</figcaption>

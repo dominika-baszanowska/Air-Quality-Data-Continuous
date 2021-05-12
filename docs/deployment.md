@@ -50,7 +50,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ### Screenshots:
 
-![Insert screenshots here](images/test.jpg)
+![Insert screenshots here](https://drive.google.com/file/d/1Fw5Sgh_lSIC3pslVltSqVe3dPWwFM9dL/view?usp=sharing)
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 
 ![Insert screenshots here](images/uc1_image2.png)

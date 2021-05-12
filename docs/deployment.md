@@ -80,7 +80,7 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 ### Screenshots:
 
 ![Insert screenshots here](images/uc3_image1.png)
-<figcaption><em>Figure 11: </em>The user clicks on <i>Find locations with low pollution levels.</i></figcaption>
+<figcaption><em>Figure 13: </em>The user clicks on <i>Find locations with low pollution levels.</i></figcaption>
 
 ![Insert screenshots here](images/uc3_image2.png)
-<figcaption><em>Figure 12: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>
+<figcaption><em>Figure 14: </em>The user clicks on <i>Temple Way.</i> to narrow down the search</figcaption>

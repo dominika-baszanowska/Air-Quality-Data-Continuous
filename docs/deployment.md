@@ -52,7 +52,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 
 ![Insert screenshots here](images/uc1_image1.png)
 
-<img src="/images/deployment.png" style="width:128px;height:128px;">
+<img src="/deployment.png" style="width:128px;height:128px;">
 
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 

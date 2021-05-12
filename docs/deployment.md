@@ -51,7 +51,7 @@ A council official, which we have classified within the *Healthy Citizen actor*,
 ![Insert screenshots here](images/uc1image1.png)
 <figcaption><em>Figure 9: </em>The user clicks on <i>See pollution records from March.</i></figcaption>
 
-Once he completed the above, he will then narrow down his search by *selecting* his desired location e.g., Temple Way; as seen below. This request will be rendered by the *Historic Pollution Data Server* which will send a query to the *Database* so that a result is provided to the original request made by the official.
+Once he completed the above step, he will then narrow down his search by *selecting* his desired location e.g., Temple Way; as seen below. This request will be rendered by the *Historic Pollution Data Server* which will send a query to the *Database* so that a result is provided to the original request made by the official.
 
 ![Insert screenshots here](images/uc1image2.png)
 <figcaption><em>Figure 10: </em>The user clicks on <i>Temple Way,</i> to narrow down the search.</figcaption>

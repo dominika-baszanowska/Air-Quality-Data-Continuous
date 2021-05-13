@@ -26,7 +26,7 @@ A runner is preparing for a marathon, so he knows he needs to be in optimal cond
 ### Sequence Diagram UC3
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/UC3_SequenceDiagram.png)
-<figcaption><em>Figure 5: </em>TBD</figcaption>
+<figcaption><em>Figure 5: </em>The above image represents the Sequence Diagram for UC3.</figcaption>
 
 ## User Interface design
 

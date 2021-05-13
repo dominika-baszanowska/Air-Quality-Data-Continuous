@@ -26,7 +26,7 @@ app.set("view engine" , "ejs")
 //serve static content from 'static' folder
 app.use(express.static('static'));
 
-//callback function for the splash page request handler
+//callback function for the splash page request handler - This request handler deals with UC1
 function splash(request, response) {
     if (typeof request.query.location == `undefined`) {
         connection.query(QUERY1, function (err, rows, fields) {
@@ -56,7 +56,7 @@ app.get('/map.html' , function(request, response){
     response.render("Map", request.query );
 });
 
-//Search
+//Search 
 app.get("/search.html", function(request, response) {
     connection.query(QUERY3, ["%"+request.query.search+"%"], function(err, rows, fields) {
         if (err) {
@@ -67,7 +67,7 @@ app.get("/search.html", function(request, response) {
     });
 });
 
-//Higher levels of pollution
+//Higher levels of pollution - This request handler deals with UC2
 app.get('/higher.html' , function(request, response){
     if (typeof request.query.location == `undefined`) {
         connection.query(QUERY4, function (err, rows, fields) {
@@ -89,7 +89,7 @@ app.get('/higher.html' , function(request, response){
     }
 });
 
-//Lower levels of pollution
+//Lower levels of pollution - This request handler deals with UC3
 app.get('/lower.html' , function(request, response){
     if (typeof request.query.location == `undefined`) {
         connection.query(QUERY6, function (err, rows, fields) {
